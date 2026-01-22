@@ -29,8 +29,6 @@ import Basket from '@/layouts/components/Basket.vue'
           <div class="order-content">
             <div class="rounded-2xl bg-base-200 p-4 shadow-sm ring-1 ring-base-300/60">
               <div class="mb-4 flex items-center justify-between">
-                <h2 class="text-lg font-semibold">Speisekarte</h2>
-                <div class="badge badge-outline">Heute</div>
               </div>
 
               <div class="min-h-[60vh]">
