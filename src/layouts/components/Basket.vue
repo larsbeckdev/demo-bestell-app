@@ -1,7 +1,9 @@
 <script setup></script>
 
 <template>
-  <div>Warenkorb</div>
+  <div>
+    <h2>Warenkorb</h2>
+  </div>
 </template>
 
 <style scoped></style>
