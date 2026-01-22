@@ -3,8 +3,8 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
 </script>
 
 <template>
-  <header class="w-full bg-primary">
-    <div class="navbar shadow-sm px-4">
+  <header class="w-full bg-primary px-4">
+    <div class="navbar shadow-sm px-0">
       <!-- Left -->
       <div class="navbar-start">
         <a class="text-xl"
