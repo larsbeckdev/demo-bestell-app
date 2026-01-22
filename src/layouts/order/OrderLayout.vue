@@ -9,7 +9,7 @@ import Basket from '@/layouts/components/Basket.vue'
   <Header />
 
   <main class="main-layout">
-    <section class="hero-section p-4 mb-4 min-h-72 ">
+    <section class="hero-section p-4 mb-4 min-h-72">
       <h1 class="text-3xl font-bold">Bestellung</h1>
     </section>
 
@@ -18,7 +18,7 @@ import Basket from '@/layouts/components/Basket.vue'
         <div class="order-content p-4">
           <OrderContent />
         </div>
-        <div class="main-basket">
+        <div class="order-basket">
           <Basket />
         </div>
       </div>
@@ -42,18 +42,18 @@ footer {
   height: 65px;
 }
 
-.main-content {
-}
-
-.main-basket {
-}
-
 .order-section-inner {
-  display: grid;
-  grid-template-columns: 1fr 360px;
+  display: flex;
   gap: 2rem;
   padding: 2rem 1rem;
 }
 
+.order-content {
+  flex: 1;
 
+}
+
+.order-basket {
+  width: 320px;
+}
 </style>
