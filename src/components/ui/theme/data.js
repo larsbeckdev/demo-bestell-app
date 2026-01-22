@@ -1,4 +1,5 @@
 export const THEMES = [
+  'bestellapp',
   'light',
   'dark',
   'cupcake',
