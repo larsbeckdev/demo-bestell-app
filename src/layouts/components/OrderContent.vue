@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <slot />
+  <div>Order Content</div>
 </template>
 
 <style scoped></style>
