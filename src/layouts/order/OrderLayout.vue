@@ -1,5 +1,44 @@
-<script setup></script>
+<script setup>
+import Header from '../components/Header.vue'
+import Footer from '../components/Footer.vue'
+import OrderContent from '../components/OrderContent.vue'
+import Basket from '../components/Basket.vue'
+</script>
 
-<template></template>
+<template>
+  <Header />
 
-<style scoped></style>
+  <main class="order-layout">
+    <section class="order-content">
+      <OrderContent />
+    </section>
+
+    <aside class="order-basket">
+      <Basket />
+    </aside>
+  </main>
+
+  <Footer />
+</template>
+
+<style scoped>
+.order-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px; /* links flexibel, rechts Warenkorb */
+  gap: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .order-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .order-basket {
+    order: 2;
+  }
+}
+</style>
