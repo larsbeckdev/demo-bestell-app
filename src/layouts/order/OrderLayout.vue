@@ -55,14 +55,5 @@ footer {
   padding: 2rem 1rem;
 }
 
-/* Mobile */
-@media (max-width: 900px) {
-  .order-layout {
-    grid-template-columns: 1fr;
-  }
 
-  .order-basket {
-    order: 2;
-  }
-}
 </style>
