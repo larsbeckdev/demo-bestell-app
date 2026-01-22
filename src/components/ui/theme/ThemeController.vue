@@ -1,7 +1,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
-import { THEMES } from '@/data/themes.js'
-import { initTheme, applyTheme, setStoredTheme, getStoredTheme } from '@/utils/theme.js'
+import { THEMES } from './data.js'
+import { initTheme, applyTheme, setStoredTheme, getStoredTheme } from '.utils.js'
 
 const selected = ref('light')
 
