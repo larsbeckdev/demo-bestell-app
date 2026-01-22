@@ -5,4 +5,4 @@
   themes: all;
 }
 
-import './bestellapp-theme.css'
+@import './bestellapp-theme.css';
