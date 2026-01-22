@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <p>footer</p>
+  <footer>footer</footer>
 </template>
 
 <style scoped></style>
