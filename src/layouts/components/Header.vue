@@ -8,7 +8,7 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
       <div class="flex-1">
         <a class="btn btn-ghost text-xl">Bestell App</a>
       </div>
-      <div class="flex-none flex">
+      <div class="flex-none flex align-center gap-4 h-full">
         <ul class="menu menu-horizontal px-1">
           <li><a>Link</a></li>
           <li>
