@@ -35,16 +35,13 @@ main {
 }
 
 footer {
-  background: orange;
   height: 65px;
 }
 
 .main-content {
-  background: yellow;
 }
 
 .main-basket {
-  background: lightgray;
 }
 
 .main-layout {
