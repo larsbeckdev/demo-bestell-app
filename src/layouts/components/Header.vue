@@ -3,28 +3,33 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
 </script>
 
 <template>
-  <header>
+  <header class="w-full">
     <div class="navbar bg-base-100 shadow-sm">
-      <div class="flex-1">
+      <!-- Left -->
+      <div class="navbar-start">
         <a class="btn btn-ghost text-xl">Bestell App</a>
       </div>
-      <div class="flex-none flex align-center gap-4 h-full">
-        <ul class="menu menu-horizontal px-1">
-          <li><a>Link</a></li>
-          <li>
-            <details>
-              <summary>Parent</summary>
-              <ul class="bg-base-100 rounded-t-none p-2">
-                <li><a>Link 1</a></li>
-                <li><a>Link 2</a></li>
-              </ul>
-            </details>
-          </li>
-        </ul>
-        <div class="flex align-center h-full"><ThemeController /></div>
+
+      <!-- Right -->
+      <div class="navbar-end">
+        <div class="flex items-center gap-4">
+          <ul class="menu menu-horizontal px-1 items-center">
+            <li><a>Link</a></li>
+            <li>
+              <details>
+                <summary>Parent</summary>
+                <ul class="bg-base-100 rounded-t-none p-2">
+                  <li><a>Link 1</a></li>
+                  <li><a>Link 2</a></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+
+          <!-- Theme -->
+          <ThemeController />
+        </div>
       </div>
     </div>
   </header>
 </template>
-
-<style scoped></style>
