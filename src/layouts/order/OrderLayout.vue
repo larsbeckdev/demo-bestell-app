@@ -10,7 +10,7 @@ import Basket from '@/layouts/components/Basket.vue'
 
   <main class="main-layout">
     <section class="main-content">
-      <div class="inner-section">
+      <div class="inner-section p-4">
         <OrderContent />
       </div>
     </section>
