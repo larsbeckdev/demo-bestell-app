@@ -24,10 +24,10 @@ import Basket from '@/layouts/components/Basket.vue'
 
     <section class="order-section">
       <div class="order-section-inner">
-        <div class="order-content">
+        <div class="order-content bg-base-200">
           <OrderContent />
         </div>
-        <div class="order-basket">
+        <div class="order-basket bg-base-200">
           <Basket />
         </div>
       </div>
