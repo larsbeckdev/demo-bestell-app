@@ -11,7 +11,7 @@ import Basket from '@/layouts/components/Basket.vue'
   <main class="main-layout">
     <section
       class="hero-section relative w-full min-h-72 flex items-center"
-      style="background-image: url('/images/hero-food.jpg')"
+      style="background-image: url('@/assets/images/hero.1.webp')"
     >
       <!-- Overlay -->
       <div class="absolute inset-0 bg-black/40"></div>
@@ -90,5 +90,4 @@ main {
 footer {
   height: 65px;
 }
-
 </style>
