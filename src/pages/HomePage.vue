@@ -1,11 +1,7 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-    <slot />
+  <h1>Home Page</h1>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
