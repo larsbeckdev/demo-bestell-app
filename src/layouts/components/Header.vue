@@ -8,7 +8,7 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
       <!-- Left -->
       <div class="navbar-start">
         <a class="btn btn-ghost text-xl"
-          ><div class="w-auto h-12">
+          ><div>
             <svg
               width="93"
               height="38"
