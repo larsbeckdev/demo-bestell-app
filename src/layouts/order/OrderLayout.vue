@@ -14,16 +14,15 @@ import Basket from '@/layouts/components/Basket.vue'
     </section>
 
     <section class="order-section">
-        <div class="order-section-inner">
-
+      <div class="order-section-inner">
+        <div class="order-content p-4">
+          <OrderContent />
         </div>
-      <div class="order-section p-4">
-        <OrderContent />
       </div>
 
-      <aside class="main-basket">
+      <div class="main-basket">
         <Basket />
-      </aside>
+      </div>
     </section>
   </main>
 
