@@ -8,14 +8,14 @@ import Basket from '@/layouts/components/Basket.vue'
 <template>
   <Header />
 
-  <main class="order-layout">
-    <section class="order-content">
+  <main class="main-layout">
+    <section class="main-content">
       <div class="inner-section">
         <OrderContent />
       </div>
     </section>
 
-    <aside class="order-basket">
+    <aside class="main-basket">
       <Basket />
     </aside>
   </main>
@@ -36,15 +36,15 @@ footer {
   background: green;
 }
 
-.order-content {
+.main-content {
   background: yellow;
 }
 
-.order-basket {
+.main-basket {
   background: lightgray;
 }
 
-.order-layout {
+.main-layout {
   display: grid;
   grid-template-columns: 1fr 360px; /* links flexibel, rechts Warenkorb */
   gap: 2rem;
