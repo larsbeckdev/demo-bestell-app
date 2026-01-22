@@ -1,8 +1,8 @@
 <script setup>
-import Header from '../components/Header.vue'
-import Footer from '../components/Footer.vue'
-import OrderContent from '../components/OrderContent.vue'
-import Basket from '../components/Basket.vue'
+import Header from '@/layouts/components/Header.vue'
+import Footer from '@/layouts/components/Footer.vue'
+import OrderContent from '@/layouts/components/OrderContent.vue'
+import Basket from '@/layouts/components/Basket.vue'
 </script>
 
 <template>
