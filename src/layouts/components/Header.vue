@@ -6,7 +6,7 @@ import ThemeController from '@/components/ui/ThemeController.vue'
   <header>
     <div class="navbar bg-base-100 shadow-sm">
       <div class="flex-1">
-        <a class="btn btn-ghost text-xl">daisyUI</a>
+        <a class="btn btn-ghost text-xl">Bestell App</a>
       </div>
       <div class="flex-none flex">
         <ul class="menu menu-horizontal px-1">
