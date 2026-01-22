@@ -24,7 +24,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="dropdown dropdown-end">
+  <div class="dropdown md:dropdown-end">
     <button type="button" tabindex="0" class="btn btn-sm gap-2" aria-label="Theme auswählen">
       <!-- Palette Icon -->
       <!-- <svg
