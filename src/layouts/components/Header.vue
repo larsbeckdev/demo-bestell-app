@@ -4,7 +4,7 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
 
 <template>
   <header class="w-full">
-    <div class="navbar bg-base-100 shadow-sm px-5">
+    <div class="navbar bg-base-100 shadow-sm px-4">
       <!-- Left -->
       <div class="navbar-start">
         <a class="btn btn-ghost text-xl">Bestell App</a>
