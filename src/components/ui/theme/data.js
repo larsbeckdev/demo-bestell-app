@@ -1,5 +1,3 @@
-// src/data/themes.js
-// DaisyUI Theme-Namen (Default-Liste + neuere)
 export const THEMES = [
   'light',
   'dark',
