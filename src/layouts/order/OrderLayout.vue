@@ -27,7 +27,7 @@ import Basket from '@/layouts/components/Basket.vue'
         <div class="grid gap-6 lg:grid-cols-[1fr_380px]">
           <!-- LEFT -->
           <div class="order-content">
-            <div class="rounded-lg bg-base-200 p-4 shadow-sm  ">
+            <div class="rounded-lg bg-base-200 p-4 ">
               <div class="mb-4 flex items-center justify-between">
                 <OrderContent />
               </div>
@@ -36,7 +36,7 @@ import Basket from '@/layouts/components/Basket.vue'
 
           <!-- RIGHT -->
           <aside class="order-basket">
-            <div class="sticky top-6 rounded-lg bg-base-200 shadow-sm ring-1 ring-base-300/60">
+            <div class="sticky top-6 rounded-lg bg-base-200 ">
               <!-- basket header -->
               <div class="flex items-center justify-between border-b border-base-300/70 p-4">
                 <div class="flex items-center gap-2">
@@ -60,7 +60,9 @@ import Basket from '@/layouts/components/Basket.vue'
                   <span class="font-semibold">€ —</span>
                 </div>
                 <button class="btn btn-primary w-full rounded-xl">Zur Kasse</button>
-                <p class="mt-2 text-xs opacity-60">Weitere Informationen zur Bestellung findest du im Warenkorb.</p>
+                <p class="mt-2 text-xs opacity-60">
+                  Weitere Informationen zur Bestellung findest du im Warenkorb.
+                </p>
               </div>
             </div>
           </aside>
