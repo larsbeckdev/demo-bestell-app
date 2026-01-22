@@ -8,7 +8,7 @@ import ThemeController from '@/components/ui/ThemeController.vue'
       <div class="flex-1">
         <a class="btn btn-ghost text-xl">daisyUI</a>
       </div>
-      <div class="flex-none">
+      <div class="flex-none flex">
         <ul class="menu menu-horizontal px-1">
           <li><a>Link</a></li>
           <li>
