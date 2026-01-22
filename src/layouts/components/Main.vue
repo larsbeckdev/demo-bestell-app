@@ -8,4 +8,9 @@
   </main>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+    main {
+        
+    }
+</style>
