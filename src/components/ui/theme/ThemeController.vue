@@ -27,7 +27,22 @@ onMounted(() => {
   <div class="dropdown dropdown-end">
     <button type="button" tabindex="0" class="btn btn-sm btn-default gap-2" aria-label="Theme auswählen">
       <!-- Palette Icon -->
-      
+      <!-- <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-4 w-4 opacity-80"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        aria-hidden="true"
+      >
+        <path d="M12 3a9 9 0 1 0 9 9c0 1.66-1.34 3-3 3h-1.5a2 2 0 0 0 0 4H12" />
+        <circle cx="7.5" cy="10.5" r="1" />
+        <circle cx="12" cy="7.5" r="1" />
+        <circle cx="16.5" cy="10.5" r="1" />
+      </svg> -->
 
       <span class="font-medium">Theme</span>
 
