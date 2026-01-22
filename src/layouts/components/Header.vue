@@ -27,6 +27,9 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
             </li>
           </ul>
 
+          <!-- Theme -->
+          <ThemeController />
+
           <!-- Mobile Menu Button -->
           <button class="btn btn-square btn-ghost">
             <svg
@@ -43,9 +46,6 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
               ></path>
             </svg>
           </button>
-
-          <!-- Theme -->
-          <ThemeController />
         </div>
       </div>
     </div>
