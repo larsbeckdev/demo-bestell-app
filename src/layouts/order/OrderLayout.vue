@@ -9,8 +9,17 @@ import Basket from '@/layouts/components/Basket.vue'
   <Header />
 
   <main class="main-layout">
-    <section class="hero-section p-4 mb-4 min-h-72">
-      <h1 class="text-3xl font-bold">Bestellung</h1>
+    <section
+      class="hero-section relative w-full min-h-72 mb-4 flex items-center"
+      style="background-image: url('/images/hero-food.jpg')"
+    >
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-black/40"></div>
+
+      <!-- Content -->
+      <div class="relative z-10 max-w-7xl mx-auto px-4">
+        <h1 class="text-3xl font-bold text-white">Bestellung</h1>
+      </div>
     </section>
 
     <section class="order-section">
