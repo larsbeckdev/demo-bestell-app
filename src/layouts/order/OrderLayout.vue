@@ -91,7 +91,7 @@ footer {
   height: 65px;
 }
 
-.order-section-inner {
+/* .order-section-inner {
   display: flex;
 }
 
@@ -101,5 +101,5 @@ footer {
 
 .order-basket {
   width: 320px;
-}
+} */
 </style>
