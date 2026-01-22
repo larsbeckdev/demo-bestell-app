@@ -10,7 +10,9 @@ import Basket from '@/layouts/components/Basket.vue'
 
   <main class="order-layout">
     <section class="order-content">
-      <OrderContent />
+      <div class="inner-section">
+        <OrderContent />
+      </div>
     </section>
 
     <aside class="order-basket">
@@ -46,8 +48,6 @@ footer {
   display: grid;
   grid-template-columns: 1fr 360px; /* links flexibel, rechts Warenkorb */
   gap: 2rem;
-  max-width: 1280px;
-  margin: 0 auto;
   padding: 2rem 1rem;
 }
 
