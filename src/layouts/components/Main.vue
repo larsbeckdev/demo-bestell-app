@@ -10,7 +10,5 @@
 
 <style scoped>
 
-    main {
-        
-    }
+
 </style>
