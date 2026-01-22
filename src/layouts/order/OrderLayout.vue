@@ -60,7 +60,7 @@ import Basket from '@/layouts/components/Basket.vue'
                   <span class="font-semibold">€ —</span>
                 </div>
                 <button class="btn btn-primary w-full rounded-xl">Zur Kasse</button>
-                <p class="mt-2 text-xs opacity-60">Lieferzeit & Gebühren im nächsten Schritt.</p>
+                <p class="mt-2 text-xs opacity-60">Weitere Informationen zur Bestellung findest du im Warenkorb.</p>
               </div>
             </div>
           </aside>
