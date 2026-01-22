@@ -1,5 +1,7 @@
 <script setup></script>
 
-<template></template>
+<template>
+  <div>Basket</div>
+</template>
 
 <style scoped></style>

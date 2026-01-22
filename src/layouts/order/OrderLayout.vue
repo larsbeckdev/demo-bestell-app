@@ -38,6 +38,10 @@ footer {
   background: yellow;
 }
 
+.order-basket {
+  background: lightgray;
+}
+
 .order-layout {
   display: grid;
   grid-template-columns: 1fr 360px; /* links flexibel, rechts Warenkorb */
