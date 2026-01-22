@@ -10,7 +10,7 @@ import Basket from '@/layouts/components/Basket.vue'
 
   <main class="main-layout">
     <section
-      class="hero-section relative w-full min-h-72 mb-4 flex items-center"
+      class="hero-section relative w-full min-h-72 flex items-center"
       style="background-image: url('/images/hero-food.jpg')"
     >
       <!-- Overlay -->
