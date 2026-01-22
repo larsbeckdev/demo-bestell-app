@@ -26,16 +26,17 @@ import Basket from '@/layouts/components/Basket.vue'
 <style scoped>
 header {
   background: red;
-  height: 60px
+  height: 65px;
 }
 
 main {
   background: blue;
-
+  height: calc(100vh - 130px);
 }
 
 footer {
   background: orange;
+  height: 65px;
 }
 
 .main-content {
