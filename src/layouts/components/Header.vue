@@ -65,7 +65,7 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
           <ul class="menu menu-horizontal px-1 items-center hidden lg:flex">
             <li><router-link to="/">Startseite</router-link></li>
             <li><router-link to="/bestellen">Bestellen</router-link></li>
-            <li>
+            <!-- <li>
               <details>
                 <summary>Parent</summary>
                 <ul class="bg-base-100 rounded-t-none p-2">
@@ -73,7 +73,7 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
                   <li ><a>Link 2</a></li>
                 </ul>
               </details>
-            </li>
+            </li> -->
           </ul>
 
           <!-- Theme -->
