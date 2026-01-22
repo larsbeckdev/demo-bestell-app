@@ -1,6 +1,6 @@
 @plugin "daisyui/theme" {
   name: 'bestellapp';
-  default: false;
+  default: true;
   prefersdark: false;
   color-scheme: 'light';
   --color-base-100: oklch(98% 0.003 247.858);
