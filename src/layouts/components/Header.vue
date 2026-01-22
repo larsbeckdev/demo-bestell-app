@@ -21,8 +21,8 @@ import ThemeController from '@/components/ui/ThemeController.vue'
             </details>
           </li>
         </ul>
+        <div><ThemeController /></div>
       </div>
-      <ThemeController />
     </div>
   </header>
 </template>
