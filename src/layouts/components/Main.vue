@@ -1,7 +1,11 @@
 <script setup></script>
 
 <template>
-  <router-view></router-view>
+  <main class="main">
+    <div class="main-inner">
+      <router-view></router-view>
+    </div>
+  </main>
 </template>
 
 <style scoped></style>
