@@ -63,13 +63,14 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
         <div class="flex items-center gap-4">
           <!-- Desktop Menu -->
           <ul class="menu menu-horizontal px-1 items-center hidden lg:flex">
-            <li><a>Link</a></li>
+            <li><router-link to="/">Startseite</router-link></li>
+            <li><router-link to="/bestellen">Bestellen</router-link></li>
             <li>
               <details>
                 <summary>Parent</summary>
                 <ul class="bg-base-100 rounded-t-none p-2">
-                  <li class=""><a>Link 1</a></li>
-                  <li class=""><a>Link 2</a></li>
+                  <li ><a>Link 1</a></li>
+                  <li ><a>Link 2</a></li>
                 </ul>
               </details>
             </li>
