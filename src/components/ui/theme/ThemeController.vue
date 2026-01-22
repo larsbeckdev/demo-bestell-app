@@ -28,7 +28,7 @@ onMounted(() => {
     <button
       type="button"
       tabindex="0"
-      class="btn btn-sm btn-outline gap-2"
+      class="btn btn-sm gap-2"
       aria-label="Theme auswählen"
     >
       <!-- Palette Icon -->
