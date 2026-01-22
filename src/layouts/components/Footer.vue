@@ -1,11 +1,7 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-    
+  <p>footer</p>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
