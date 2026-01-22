@@ -21,7 +21,7 @@ onMounted(() => {
 
 <template>
   <div class="dropdown dropdown-end">
-    <button type="button" tabindex="0" class="btn btn-sm gap-2" aria-label="Theme auswählen">
+    <button type="button" tabindex="0" class="btn btn-sm" aria-label="Theme auswählen">
       <!-- Palette Icon -->
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,10 +40,10 @@ onMounted(() => {
         <circle cx="16.5" cy="10.5" r="1" />
       </svg>
 
-      <span class="font-medium">Theme</span>
+      <!-- <span class="font-medium">Theme</span> -->
 
       <!-- Chevron -->
-      <svg
+      <!-- <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4 opacity-70"
         viewBox="0 0 24 24"
@@ -55,7 +55,7 @@ onMounted(() => {
         aria-hidden="true"
       >
         <path d="m6 9 6 6 6-6" />
-      </svg>
+      </svg> -->
     </button>
 
     <div
