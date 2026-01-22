@@ -15,7 +15,7 @@ import Basket from '@/layouts/components/Basket.vue'
 
     <section class="order-section">
       <div class="order-section-inner">
-        <div class="order-content p-4">
+        <div class="order-content">
           <OrderContent />
         </div>
         <div class="order-basket">
@@ -50,7 +50,6 @@ footer {
 
 .order-content {
   flex: 1;
-
 }
 
 .order-basket {
