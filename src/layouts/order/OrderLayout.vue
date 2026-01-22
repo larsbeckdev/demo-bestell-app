@@ -9,8 +9,12 @@ import Basket from '@/layouts/components/Basket.vue'
   <Header />
 
   <main class="main-layout">
-    <section class="main-content">
-      <div class="inner-section p-4">
+    <section>
+
+    </section>
+
+    <section class="order-content">
+      <div class="order-section p-4">
         <OrderContent />
       </div>
     </section>
