@@ -30,6 +30,7 @@ header {
 
 main {
   height: calc(100vh - 130px);
+  padding: 0 !important;
 }
 
 footer {
