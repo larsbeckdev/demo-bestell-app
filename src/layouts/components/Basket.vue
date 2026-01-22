@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>Basket</div>
+  <div>Warenkorb</div>
 </template>
 
 <style scoped></style>
