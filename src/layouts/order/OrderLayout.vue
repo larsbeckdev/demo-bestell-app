@@ -48,7 +48,7 @@ footer {
 .main-basket {
 }
 
-.main-layout {
+.order-section-inner {
   display: grid;
   grid-template-columns: 1fr 360px;
   gap: 2rem;
