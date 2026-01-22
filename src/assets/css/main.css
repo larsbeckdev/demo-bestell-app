@@ -4,3 +4,5 @@
 @plugin "daisyui" {
   themes: all;
 }
+
+import './assets/bestellapp-theme.css'

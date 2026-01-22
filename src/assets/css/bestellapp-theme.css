@@ -1,0 +1,33 @@
+/* DaisyUI Theme per CSS (funktioniert auch ohne Config) */
+:root[data-theme='bestellapp'] {
+  --p: 57% 0.16 48; /* primary -> ungefähr #E76C1F in OKLCH-ish */
+  --pc: 20% 0.03 50; /* primary-content (dunkel) */
+
+  --b1: 100% 0 0; /* base-100 */
+  --b2: 97% 0.01 255; /* base-200 */
+  --b3: 93% 0.02 255; /* base-300 */
+  --bc: 18% 0.02 255; /* base-content */
+
+  --s: 40% 0.12 260; /* secondary (blau) */
+  --sc: 100% 0 0;
+
+  --a: 64% 0.12 190; /* accent (teal) */
+  --ac: 15% 0.03 190;
+
+  --n: 18% 0.02 255; /* neutral */
+  --nc: 100% 0 0;
+
+  --in: 65% 0.14 250; /* info */
+  --su: 65% 0.14 145; /* success */
+  --wa: 75% 0.14 80; /* warning */
+  --er: 62% 0.2 25; /* error */
+
+  --rounded-box: 1rem;
+  --rounded-btn: 0.75rem;
+  --rounded-badge: 9999px;
+  --animation-btn: 0.2s;
+  --btn-focus-scale: 0.98;
+  --border-btn: 1px;
+  --tab-border: 1px;
+  --tab-radius: 0.75rem;
+}
