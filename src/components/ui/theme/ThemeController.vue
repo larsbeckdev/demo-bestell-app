@@ -12,8 +12,12 @@ function setTheme(theme) {
 }
 
 onMounted(() => {
-  selected.value = initTheme('light')
+  // setzt data-theme beim Start + selected passend
+  const theme = initTheme('light')
+  selected.value = theme
 
+  // falls daisyui theme-controller via Radio auch etwas setzt:
+  // wir halten selected synchron, wenn localStorage extern geändert wird
   const stored = getStoredTheme()
   if (stored) selected.value = stored
 })
@@ -21,9 +25,9 @@ onMounted(() => {
 
 <template>
   <div class="dropdown dropdown-end">
-    <button type="button" tabindex="0" class="btn btn-sm" aria-label="Theme auswählen">
+    <button type="button" tabindex="0" class="btn btn-sm gap-2" aria-label="Theme auswählen">
       <!-- Palette Icon -->
-      <svg
+      <!-- <svg
         xmlns="http://www.w3.org/2000/svg"
         class="h-4 w-4 opacity-80"
         viewBox="0 0 24 24"
@@ -38,9 +42,9 @@ onMounted(() => {
         <circle cx="7.5" cy="10.5" r="1" />
         <circle cx="12" cy="7.5" r="1" />
         <circle cx="16.5" cy="10.5" r="1" />
-      </svg>
+      </svg> -->
 
-      <!-- <span class="font-medium">Theme</span> -->
+      <span class="font-medium">Theme</span>
 
       <!-- Chevron -->
       <!-- <svg
@@ -76,6 +80,7 @@ onMounted(() => {
             <span class="capitalize">{{ t }}</span>
 
             <span class="flex items-center gap-2">
+              <!-- Check -->
               <svg
                 v-if="selected === t"
                 xmlns="http://www.w3.org/2000/svg"
@@ -91,6 +96,7 @@ onMounted(() => {
                 <path d="M20 6 9 17l-5-5" />
               </svg>
 
+              <!-- DaisyUI Theme Controller (Radio) -->
               <input
                 type="radio"
                 name="theme-dropdown"
@@ -112,4 +118,6 @@ onMounted(() => {
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+/* optional */
+</style>
