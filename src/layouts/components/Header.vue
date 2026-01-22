@@ -14,7 +14,7 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
       <div class="navbar-end">
         <div class="flex items-center gap-4">
           <!-- Desktop Menu -->
-          <ul class="menu menu-horizontal px-1 items-center">
+          <ul class="menu menu-horizontal px-1 items-center hidden lg:flex">
             <li><a>Link</a></li>
             <li>
               <details>
