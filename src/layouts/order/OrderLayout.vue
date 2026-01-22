@@ -18,10 +18,9 @@ import Basket from '@/layouts/components/Basket.vue'
         <div class="order-content p-4">
           <OrderContent />
         </div>
-      </div>
-
-      <div class="main-basket">
-        <Basket />
+        <div class="main-basket">
+          <Basket />
+        </div>
       </div>
     </section>
   </main>
