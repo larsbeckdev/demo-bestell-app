@@ -26,10 +26,12 @@ import Basket from '@/layouts/components/Basket.vue'
 <style scoped>
 header {
   background: red;
+  height: 60px
 }
 
 main {
   background: blue;
+
 }
 
 footer {
