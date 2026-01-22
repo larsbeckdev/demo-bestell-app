@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import ThemeController from '@/components/ui/ThemeController.vue'
+</script>
 
 <template>
   <header>
