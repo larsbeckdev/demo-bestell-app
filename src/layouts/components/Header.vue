@@ -21,7 +21,7 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
             </details>
           </li>
         </ul>
-        <div><ThemeController /></div>
+        <div class="flex align-center"><ThemeController /></div>
       </div>
     </div>
   </header>
