@@ -9,7 +9,7 @@ import Basket from '@/layouts/components/Basket.vue'
   <Header />
 
   <main class="main-layout">
-    <section class="hero-section p-4 mb-4 col-span-2">
+    <section class="hero-section p-4 mb-4 ">
       <h1 class="text-3xl font-bold">Bestellung</h1>
     </section>
 
