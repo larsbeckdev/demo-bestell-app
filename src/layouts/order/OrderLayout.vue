@@ -57,7 +57,7 @@ import Basket from '@/layouts/components/Basket.vue'
               <div class="border-t border-base-300/70 p-4">
                 <div class="mb-3 flex items-center justify-between text-sm">
                   <span class="opacity-70">Zwischensumme</span>
-                  <span class="font-semibold">€ —</span>
+                  <span class="font-semibold">€</span>
                 </div>
                 <button class="btn btn-primary w-full rounded-xl">Zur Kasse</button>
                 <p class="mt-2 text-xs opacity-60">
