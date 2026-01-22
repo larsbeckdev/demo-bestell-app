@@ -1,7 +1,9 @@
-<script setup></script>
+<script setup>
+import OrderPage from '@/pages/OrderPage.vue'
+</script>
 
 <template>
-  <div>Order Content</div>
+  <OrderPage />
 </template>
 
 <style scoped></style>
