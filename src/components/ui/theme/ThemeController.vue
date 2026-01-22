@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 import { THEMES } from './data.js'
 import { initTheme, applyTheme, setStoredTheme, getStoredTheme } from './utils.js'
-import { Brush } from 'lucide-vue-next'
+import { PaintBucket } from 'lucide-vue-next'
 
 const selected = ref('light')
 
@@ -30,7 +30,7 @@ onMounted(() => {
       aria-label="Theme auswählen"
     >
       <!-- Palette Icon -->
-      <Brush class="h-4 w-4 opacity-80" />
+      <PaintBucket class="h-4 w-4 opacity-80" />
 
       <!-- <span class="font-medium">Theme</span> -->
     </button>
