@@ -20,6 +20,6 @@ main {
 }
 
 footer {
-  background: green;
+  background: orange;
 }
 </style>

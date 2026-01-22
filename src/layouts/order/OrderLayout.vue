@@ -33,7 +33,7 @@ main {
 }
 
 footer {
-  background: green;
+  background: orange;
 }
 
 .main-content {
