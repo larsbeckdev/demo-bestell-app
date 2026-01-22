@@ -12,14 +12,11 @@ import Footer from '@/layouts/components/Footer.vue'
 
 <style scoped>
 header {
-  background: red;
 }
 
 main {
-  background: blue;
 }
 
 footer {
-  background: orange;
 }
 </style>
