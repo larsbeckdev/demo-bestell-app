@@ -22,6 +22,22 @@ import Basket from '../components/Basket.vue'
 </template>
 
 <style scoped>
+header {
+  background: red;
+}
+
+main {
+  background: blue;
+}
+
+footer {
+  background: green;
+}
+
+.order-content {
+  background: yellow;
+}
+
 .order-layout {
   display: grid;
   grid-template-columns: 1fr 360px; /* links flexibel, rechts Warenkorb */
