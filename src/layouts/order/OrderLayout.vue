@@ -22,13 +22,54 @@ import Basket from '@/layouts/components/Basket.vue'
       </div>
     </section>
 
-    <section class="order-section">
-      <div class="order-section-inner">
-        <div class="order-content bg-base-200 p-4 h-screen">
-          <OrderContent />
-        </div>
-        <div class="order-basket bg-base-200 p-4 border-l border-base-300">
-          <Basket />
+    <section class="order-section w-full">
+      <div class="order-section-inner mx-auto max-w-7xl px-4 py-6">
+        <div class="grid gap-6 lg:grid-cols-[1fr_380px]">
+          <!-- LEFT: Content -->
+          <div class="order-content">
+            <div class="rounded-2xl bg-base-200 p-4 shadow-sm ring-1 ring-base-300/60">
+              <!-- optional header -->
+              <div class="mb-4 flex items-center justify-between">
+                <h2 class="text-lg font-semibold">Speisekarte</h2>
+                <div class="badge badge-outline">Heute</div>
+              </div>
+
+              <div class="min-h-[60vh]">
+                <OrderContent />
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT -->
+          <aside class="order-basket">
+            <div class="sticky top-6 rounded-2xl bg-base-200 shadow-sm ring-1 ring-base-300/60">
+              <!-- basket header -->
+              <div class="flex items-center justify-between border-b border-base-300/70 p-4">
+                <div class="flex items-center gap-2">
+                  <div class="badge badge-primary">Basket</div>
+                  <span class="text-sm opacity-70">Deine Auswahl</span>
+                </div>
+                <button class="btn btn-ghost btn-sm">Leeren</button>
+              </div>
+
+              <!-- basket scroll area -->
+              <div class="p-4">
+                <div class="max-h-[calc(100vh-11rem)] overflow-auto pr-1">
+                  <Basket />
+                </div>
+              </div>
+
+              <!-- basket footer -->
+              <div class="border-t border-base-300/70 p-4">
+                <div class="mb-3 flex items-center justify-between text-sm">
+                  <span class="opacity-70">Zwischensumme</span>
+                  <span class="font-semibold">€ —</span>
+                </div>
+                <button class="btn btn-primary w-full rounded-xl">Zur Kasse</button>
+                <p class="mt-2 text-xs opacity-60">Lieferzeit & Gebühren im nächsten Schritt.</p>
+              </div>
+            </div>
+          </aside>
         </div>
       </div>
     </section>
