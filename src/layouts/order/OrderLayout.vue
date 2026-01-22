@@ -13,7 +13,10 @@ import Basket from '@/layouts/components/Basket.vue'
       <h1 class="text-3xl font-bold">Bestellung</h1>
     </section>
 
-    <section class="order-content">
+    <section class="order-section">
+        <div class="order-section-inner">
+
+        </div>
       <div class="order-section p-4">
         <OrderContent />
       </div>
