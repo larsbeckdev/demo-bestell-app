@@ -1,5 +1,5 @@
 <script setup>
-import ThemeController from '@/components/ui/ThemeController.vue'
+import ThemeController from '@/components/ui/theme/ThemeController.vue'
 </script>
 
 <template>
