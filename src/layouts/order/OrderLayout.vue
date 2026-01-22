@@ -91,15 +91,4 @@ footer {
   height: 65px;
 }
 
-/* .order-section-inner {
-  display: flex;
-}
-
-.order-content {
-  flex: 1;
-}
-
-.order-basket {
-  width: 320px;
-} */
 </style>
