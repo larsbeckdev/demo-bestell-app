@@ -14,7 +14,7 @@
 /* @import './base/inputs.css'; */
 
 /* Components */
-/* @import './base/button.css'; */
+@import './buttons.css';
 
 @plugin "daisyui/theme" {
   name: 'light';
