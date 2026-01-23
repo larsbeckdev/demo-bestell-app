@@ -22,7 +22,7 @@
         <span class="opacity-70">Zwischensumme</span>
         <span class="font-semibold">€</span>
       </div>
-      <button class="btn btn-primary w-full rounded-xl">Zur Kasse</button>
+      <button class="btn btn-primary w-full">Zur Kasse</button>
       <p class="mt-2 text-xs opacity-60">
         Weitere Informationen zur Bestellung findest du im Warenkorb.
       </p>
