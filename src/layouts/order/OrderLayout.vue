@@ -13,14 +13,42 @@ const logoUrl = new URL('@/assets/images/logo-burger.png', import.meta.url).href
 
   <main class="w-full">
     <!-- HERO -->
-    <section
-      class="relative w-full min-h-72 flex items-center bg-cover bg-center bg-no-repeat"
-      :style="{ backgroundImage: `url(${heroUrl})` }"
-    >
-      <div class="absolute inset-0 bg-black/40"></div>
+    <!-- HERO -->
+    <section class="relative w-full">
+      <!-- Background -->
+      <div
+        class="relative h-[260px] md:h-[320px] bg-cover bg-center"
+        :style="{ backgroundImage: `url(${heroUrl})` }"
+      >
+        <div class="absolute inset-0 bg-black/40"></div>
+      </div>
 
-      <div class="relative z-10 max-w-7xl mx-auto px-4 py-10">
-        <h1 class="text-3xl font-bold text-white">Bestellung</h1>
+      <!-- CONTENT -->
+      <div class="relative -mt-16 md:-mt-20">
+        <div class="max-w-3xl mx-auto px-4 text-center">
+          <!-- Logo -->
+          <div
+            class="mx-auto w-32 h-32 rounded-full bg-white shadow-lg flex items-center justify-center border-4 border-white"
+          >
+            <img :src="logoUrl" alt="BurgerHouse Logo" class="w-20 h-20 object-contain" />
+          </div>
+
+          <!-- Text -->
+          <div class="mt-4">
+            <h1 class="text-3xl font-bold"><span class="text-orange-600">Burger</span>House</h1>
+
+            <!-- Rating -->
+            <div class="mt-2 flex items-center justify-center gap-2 text-sm text-gray-600">
+              <span class="flex items-center gap-1"> ⭐ <strong>4.1</strong> </span>
+              <span class="opacity-60">(317)</span>
+            </div>
+
+            <!-- Subtitle -->
+            <p class="mt-3 text-gray-600 max-w-xl mx-auto">
+              The best of Burgers, Pizza, and Greens, all in one great place.
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
