@@ -35,7 +35,7 @@ const heroUrl = new URL('@/assets/images/hero-3.webp', import.meta.url).href
     </section>
 
     <!-- ORDER GRID -->
-    <section class="w-full">
+    <section class="w-full min-h-[900px] bg-base-100">
       <div class="max-w-7xl mx-auto px-4 py-6">
         <div class="grid gap-6 lg:grid-cols-[1fr_380px]">
           <!-- LEFT -->
