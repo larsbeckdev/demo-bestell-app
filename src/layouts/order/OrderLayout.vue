@@ -16,7 +16,7 @@ const logoUrl = new URL('@/assets/images/Burger.png', import.meta.url).href
     <section class="relative w-full">
       <!-- Background -->
       <div
-        class="relative h-[260px] md:h-[380px] bg-cover bg-center"
+        class="relative mt-[80px] h-[260px] md:h-[380px] bg-cover bg-center"
         :style="{ backgroundImage: `url(${heroUrl})` }"
       >
         <div class="absolute inset-0 bg-black/40"></div>
