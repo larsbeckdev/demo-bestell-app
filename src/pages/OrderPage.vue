@@ -1,7 +1,5 @@
 <script setup></script>
 
-<template>
-  <h1 class="text-2xl font-bold">Order Page</h1>
-</template>
+<template></template>
 
 <style scoped></style>

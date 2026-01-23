@@ -24,7 +24,7 @@ import Basket from '@/layouts/components/Basket.vue'
 
     <section class="order-section w-full">
       <div class="order-section-inner mx-auto max-w-7xl px-4 py-6">
-        <div class="grid gap-6 lg:grid-cols-[1fr_380px] h-400">
+        <div class="grid gap-6 lg:grid-cols-[1fr_380px] min-h-screen">
           <!-- LEFT -->
           <div class="order-content">
             <OrderContent />
