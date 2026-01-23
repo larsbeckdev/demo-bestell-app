@@ -62,6 +62,6 @@ main {
 }
 
 footer {
-  height: 65px;
+  /* height: 65px; */
 }
 </style>
