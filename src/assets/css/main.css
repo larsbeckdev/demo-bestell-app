@@ -8,10 +8,10 @@
 @import './bestellapp-theme.css';
 
 /* Base */
-@import '../base/layout.css';
-@import '../base/header.css';
-@import '../base/footer.css';
-@import '../base/inputs.css';
+/* @import './base/layout.css'; */
+/* @import './base/header.css'; */
+/* @import './base/footer.css'; */
+/* @import './base/inputs.css'; */
 
 /* Components */
-@import '../base/button.css';
+/* @import './base/button.css'; */
