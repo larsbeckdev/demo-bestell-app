@@ -24,7 +24,7 @@
       </div>
       <button class="btn btn-primary w-full">Zur Kasse</button>
       <p class="mt-2 text-xs opacity-60">
-        Weitere Informationen zur Bestellung findest du in unseren AGB.
+        Weitere Informationen zur Bestellung findest du in unseren Allgemeinen Geschäfts.
       </p>
     </div>
   </div>
