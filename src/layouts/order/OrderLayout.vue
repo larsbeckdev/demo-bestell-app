@@ -42,11 +42,7 @@ const logoUrl = new URL('@/assets/images/Burger.png', import.meta.url).href
 
             <!-- Rating -->
             <div class="mt-2 flex items-center justify-center gap-2 text-sm text-gray-600">
-              <span class="flex items-center gap-1"> ⭐ <strong>4.1</strong> </span>
-              <span class="opacity-60">(317)</span>
-            </div>
-
-            <div class="rating">
+              <div class="rating">
               <input
                 type="radio"
                 name="rating-2"
@@ -82,6 +78,11 @@ const logoUrl = new URL('@/assets/images/Burger.png', import.meta.url).href
                 aria-label="5 star"
               />
             </div>
+              <span class="flex items-center gap-1"> <strong>4.1</strong> </span>
+              <span class="opacity-60">(317)</span>
+            </div>
+
+            
 
             <!-- Subtitle -->
             <p class="mt-3 text-gray-600 max-w-xl mx-auto">
