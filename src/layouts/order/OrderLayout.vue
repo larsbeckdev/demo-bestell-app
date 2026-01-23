@@ -35,7 +35,7 @@ const logoUrl = new URL('@/assets/images/logo-burger.png', import.meta.url).href
 
           <!-- Text -->
           <div class="mt-4">
-            <h1 class="text-3xl font-bold"><span class="text-orange-600">Burger</span>House</h1>
+            <h1 class="text-3xl font-bold"><span class="text-primary">Burger</span>House</h1>
 
             <!-- Rating -->
             <div class="mt-2 flex items-center justify-center gap-2 text-sm text-gray-600">
