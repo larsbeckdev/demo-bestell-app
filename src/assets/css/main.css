@@ -6,3 +6,14 @@
 }
 
 @import './bestellapp-theme.css';
+
+
+// CUSTOM STYLES
+
+
+@import './base/button.css';
+@import './base/footer.css';
+@import './base/header.css';
+@import './base/inputs.css';
+@import './base/layout.css';
+@import './base/button.css';
