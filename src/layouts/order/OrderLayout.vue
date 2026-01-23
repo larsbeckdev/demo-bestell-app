@@ -36,6 +36,7 @@ import Basket from '@/layouts/components/Basket.vue'
 
           <!-- RIGHT -->
           <aside class="order-basket">
+             <Basket />
             <div class="sticky top-6 rounded-lg bg-base-200 ">
               <!-- basket header -->
               <div class="flex items-center justify-between border-b border-base-300/70 p-4">
