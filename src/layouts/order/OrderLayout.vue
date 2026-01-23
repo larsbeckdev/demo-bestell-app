@@ -13,7 +13,6 @@ const logoUrl = new URL('@/assets/images/Burger.png', import.meta.url).href
 
   <main class="w-full">
     <!-- HERO -->
-    <!-- HERO -->
     <section class="relative w-full">
       <!-- Background -->
       <div
