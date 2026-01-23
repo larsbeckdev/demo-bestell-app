@@ -14,6 +14,7 @@
               height="38"
               viewBox="0 0 93 38"
               fill="none"
+              class="h-7 w-auto"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
