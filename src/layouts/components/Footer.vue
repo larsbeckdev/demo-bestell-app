@@ -10,7 +10,7 @@
         </div>
 
         <!-- Center / Links -->
-        <nav class="flex flex-wrap gap-4 text-sm">
+        <nav class="flex flex-wrap gap-4 text-sm justify-center">
           <a href="#" class="text-slate-600 hover:text-slate-900 transition">Impressum</a>
           <a href="#" class="text-slate-600 hover:text-slate-900 transition">Datenschutz</a>
           <a href="#" class="text-slate-600 hover:text-slate-900 transition">AGB</a>
