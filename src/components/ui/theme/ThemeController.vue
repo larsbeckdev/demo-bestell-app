@@ -4,7 +4,7 @@ import { THEMES } from './data.js'
 import { initTheme, applyTheme, setStoredTheme, getStoredTheme } from './utils.js'
 import { PaintBucket } from 'lucide-vue-next'
 
-const selected = ref('bestellapp')
+const selected = ref('light')
 
 function setTheme(theme) {
   selected.value = theme
@@ -13,7 +13,7 @@ function setTheme(theme) {
 }
 
 onMounted(() => {
-  const theme = initTheme('bestellapp')
+  const theme = initTheme('light')
   selected.value = theme
 
   const stored = getStoredTheme()
