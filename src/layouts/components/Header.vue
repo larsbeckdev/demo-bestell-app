@@ -4,7 +4,7 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
 
 <template>
   <header class="w-full bg-primary px-4">
-    <div class="navbar px-0">
+    <div class="navbar px-0 max-w-7xl mx-auto">
       <!-- Left -->
       <div class="navbar-start">
         <a class="text-xl"
