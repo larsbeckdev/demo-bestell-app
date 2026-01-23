@@ -25,7 +25,7 @@ const logoUrl = new URL('@/assets/images/logo-burger.png', import.meta.url).href
 
       <!-- CONTENT -->
       <div class="relative -mt-16 md:-mt-20">
-        <div class="max-w-3xl mx-auto px-4 text-center">
+        <div class="max-w-3xl mx-auto px-4 text-center min-h-94">
           <!-- Logo -->
           <div
             class="mx-auto w-32 h-32 rounded-full bg-white shadow-lg flex items-center justify-center border-4 border-white"
