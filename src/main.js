@@ -3,6 +3,7 @@ import { createPinia } from 'pinia'
 
 import App from './pages/App.vue'
 import router from './router'
+import '@fontsource-variable/geist'
 
 const app = createApp(App)
 
