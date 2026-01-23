@@ -27,6 +27,8 @@ import Basket from '@/layouts/components/Basket.vue'
         <div class="grid gap-6 lg:grid-cols-[1fr_380px]">
           <!-- LEFT -->
           <div class="order-content">
+            <OrderContent />
+
             <div class="rounded-lg bg-base-200 p-4">
               <div class="mb-4 flex items-center justify-between">
                 <OrderContent />
