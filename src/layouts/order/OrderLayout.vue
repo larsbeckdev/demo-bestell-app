@@ -22,6 +22,15 @@ import Basket from '@/layouts/components/Basket.vue'
       </div>
     </section>
 
+    <section class="info-bar-section w-full bg-base-200">
+      <div class="info-bar-inner mx-auto max-w-7xl px-4 py-3">
+        <p class="text-sm opacity-70 text-center">
+          Wähle deine gewünschten Artikel aus und lege sie in den Warenkorb.
+        </p>
+      </div>
+      
+    </section>
+
     <section class="order-section w-full">
       <div class="order-section-inner mx-auto max-w-7xl px-4 py-6">
         <div class="grid gap-6 lg:grid-cols-[1fr_380px] min-h-screen">
