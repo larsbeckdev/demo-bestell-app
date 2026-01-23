@@ -46,6 +46,40 @@ const logoUrl = new URL('@/assets/images/Burger.png', import.meta.url).href
               <span class="opacity-60">(317)</span>
             </div>
 
+            <div class="rating">
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="1 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="2 star"
+                checked="checked"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="3 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="4 star"
+              />
+              <input
+                type="radio"
+                name="rating-2"
+                class="mask mask-star-2 bg-orange-400"
+                aria-label="5 star"
+              />
+            </div>
+
             <!-- Subtitle -->
             <p class="mt-3 text-gray-600 max-w-xl mx-auto">
               The best of Burgers, Pizza, and Greens, all in one great place.
@@ -54,8 +88,6 @@ const logoUrl = new URL('@/assets/images/Burger.png', import.meta.url).href
         </div>
       </div>
     </section>
-
-   
 
     <!-- ORDER GRID -->
     <section class="w-full bg-base-100">
