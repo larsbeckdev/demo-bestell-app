@@ -4,9 +4,7 @@ import Footer from '@/layouts/components/Footer.vue'
 import OrderContent from '@/layouts/components/OrderContent.vue'
 import Basket from '@/layouts/components/Basket.vue'
 
-// ✅ Vite-sicherer Asset-Pfad:
 const heroUrl = new URL('@/assets/images/hero-3.webp', import.meta.url).href
-// Falls dein Bild NICHT in src/assets liegt, sag kurz wo (public/ oder src/images), dann passe ich’s an.
 </script>
 
 <template>
