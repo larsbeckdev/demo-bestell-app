@@ -27,12 +27,12 @@ const logoUrl = new URL('@/assets/images/Burger.png', import.meta.url).href
         <div class="max-w-3xl mx-auto px-4 text-center min-h-94">
           <!-- Logo -->
           <div
-            class="mx-auto w-32 h-32 rounded-full bg-white shadow-lg flex items-center justify-center border-4 border-white"
+            class="mx-auto w-32 h-32 rounded-full bg-white shadow-lg flex items-center justify-center"
           >
             <img
               :src="logoUrl"
               alt="BurgerHouse Logo"
-              class="w-32 h-32 object-contain rounded-full"
+              class="w-32 h-32 object-contain rounded-full border-4 border-white"
             />
           </div>
 
