@@ -5,8 +5,8 @@
     <!-- basket header -->
     <div class="flex items-center justify-between border-b border-base-300/70 p-4">
       <div class="flex items-center gap-2">
-        <div class="badge badge-primary">Basket</div>
-        <span class="text-sm opacity-70">Deine Auswahl</span>
+        <!-- <div class="badge badge-primary">Basket</div> -->
+        <span class="text-sm opacity-70 font-bold">Warenkorb</span>
       </div>
       <button class="btn btn-ghost btn-sm">Leeren</button>
     </div>
