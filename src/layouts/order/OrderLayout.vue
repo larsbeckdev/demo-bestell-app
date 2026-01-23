@@ -43,46 +43,44 @@ const logoUrl = new URL('@/assets/images/Burger.png', import.meta.url).href
             <!-- Rating -->
             <div class="mt-2 flex items-center justify-center gap-2 text-sm text-gray-600">
               <div class="rating">
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                aria-label="1 star"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                aria-label="2 star"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                aria-label="3 star"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                aria-label="4 star"
-                checked="checked"
-              />
-              <input
-                type="radio"
-                name="rating-2"
-                class="mask mask-star-2 bg-orange-400"
-                aria-label="5 star"
-              />
-            </div>
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="1 star"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="2 star"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="3 star"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="4 star"
+                  checked="checked"
+                />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  aria-label="5 star"
+                />
+              </div>
               <span class="flex items-center gap-1"> <strong>4.1</strong> </span>
               <span class="opacity-60">(317)</span>
             </div>
-
-            
 
             <!-- Subtitle -->
             <p class="mt-3 text-gray-600 max-w-xl mx-auto">
