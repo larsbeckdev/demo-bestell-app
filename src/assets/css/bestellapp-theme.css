@@ -27,7 +27,7 @@
   --color-accent-content: oklch(98% 0.01 90);
 
   /* Neutrals (warmes Grau für Navbar/Chips/Footer) */
-  --color-neutral: oklch(28% 0.01 80);
+  --color-neutral: oklch(30% 0.02 70);
   --color-neutral-content: oklch(98% 0.01 90);
 
   /* =========================
