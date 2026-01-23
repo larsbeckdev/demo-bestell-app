@@ -37,7 +37,7 @@ onMounted(() => {
 
     <div
       tabindex="0"
-      class="dropdown-content z-[60] mt-6 w-64 rounded-box border border-base-200 bg-base-100 shadow-xl -mr-12"
+      class="dropdown-content z-[60] mt-6 w-64 rounded-box border border-base-200 bg-base-100 shadow-xl -mr-12 text-base-content"
     >
       <div class="px-3 py-2 border-b border-base-200">
         <div class="text-xs opacity-70">Aktiv</div>
