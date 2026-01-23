@@ -7,9 +7,11 @@
 
 @import './bestellapp-theme.css';
 
-/* CUSTOM STYLES */
-@import './base/button.css';
-@import './base/footer.css';
-@import './base/header.css';
-@import './base/inputs.css';
+/* Base */
 @import './base/layout.css';
+@import './base/header.css';
+@import './base/footer.css';
+@import './base/inputs.css';
+
+/* Components */
+@import './base/button.css';
