@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <header class="w-full bg-primary px-4 fixed top-0 z-100 h-[80px] flex items-center ">
+  <header class="w-full bg-primary px-4 fixed top-0 z-100 h-[80px] flex items-center">
     <div class="navbar px-0 max-w-7xl mx-auto">
       <!-- Left -->
       <div class="navbar-start">
