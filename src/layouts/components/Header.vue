@@ -1,5 +1,5 @@
 <script setup>
-import ThemeController from '@/components/ui/theme/ThemeController.vue'
+// import ThemeController from '@/components/ui/theme/ThemeController.vue'
 </script>
 
 <template>
@@ -77,7 +77,7 @@ import ThemeController from '@/components/ui/theme/ThemeController.vue'
           </ul>
 
           <!-- Theme -->
-          <ThemeController />
+          <!-- <ThemeController /> -->
 
           <!-- Mobile Menu Button -->
           <button class="btn btn-square btn-ghost">
