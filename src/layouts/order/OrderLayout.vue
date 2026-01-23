@@ -55,14 +55,7 @@ const logoUrl = new URL('@/assets/images/Burger.png', import.meta.url).href
       </div>
     </section>
 
-    <!-- INFO BAR -->
-    <section class="w-full bg-base-200">
-      <div class="max-w-7xl mx-auto px-4 py-3">
-        <p class="text-sm opacity-70 text-center">
-          Wähle deine gewünschten Artikel aus und lege sie in den Warenkorb.
-        </p>
-      </div>
-    </section>
+   
 
     <!-- ORDER GRID -->
     <section class="w-full bg-base-100">
