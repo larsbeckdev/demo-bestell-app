@@ -4,55 +4,35 @@
   prefersdark: false;
   color-scheme: 'light';
 
-  /* =========================
-     Warmes Grau / Creme Base
-     ========================= */
   --color-base-100: oklch(98% 0.01 85);
   --color-base-200: oklch(96% 0.012 85);
   --color-base-300: oklch(92% 0.014 85);
   --color-base-content: oklch(22% 0.02 70);
 
-  /* =========================
-     Brand: Orange
-     ========================= */
   --color-primary: #e76c1f;
   --color-primary-content: oklch(98% 0.01 90);
 
-  /* Ruhige Alternative (Beige/Sand) */
   --color-secondary: oklch(90% 0.03 85);
   --color-secondary-content: oklch(22% 0.02 70);
 
-  /* Highlight (etwas röter/satter als primary, aber harmonisch) */
   --color-accent: oklch(70% 0.17 40);
   --color-accent-content: oklch(98% 0.01 90);
 
-  /* Neutrals (warmes Grau für Navbar/Chips/Footer) */
   --color-neutral: oklch(30% 0.02 70);
   --color-neutral-content: oklch(98% 0.01 90);
 
-  /* =========================
-     Status Farben (stimmig)
-     ========================= */
-
-  /* INFO -> Grau statt Blau */
   --color-info: oklch(72% 0.01 80);
   --color-info-content: oklch(22% 0.02 70);
 
-  /* Success leicht warm, nicht “neon-grün” */
   --color-success: oklch(64% 0.13 150);
   --color-success-content: oklch(98% 0.01 90);
 
-  /* Warning klarer Amber (deutlich, aber nicht identisch zu primary) */
   --color-warning: oklch(78% 0.16 75);
   --color-warning-content: oklch(22% 0.02 70);
 
-  /* Error warmes Rot (passt zu Orange-Umfeld) */
   --color-error: oklch(58% 0.21 25);
   --color-error-content: oklch(98% 0.01 90);
 
-  /* =========================
-     Shape / Depth
-     ========================= */
   --radius-selector: 0.5rem;
   --radius-field: 0.5rem;
   --radius-box: 0.75rem;
