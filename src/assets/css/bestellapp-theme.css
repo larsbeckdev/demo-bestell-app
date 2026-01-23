@@ -3,32 +3,52 @@
   default: true;
   prefersdark: false;
   color-scheme: 'light';
-  --color-base-100: oklch(98% 0.003 247.858);
-  --color-base-200: oklch(96% 0.003 264.542);
-  --color-base-300: oklch(92% 0.004 286.32);
-  --color-base-content: oklch(37% 0.044 257.287);
+
+  /* Warmes, leicht cremiges UI */
+  --color-base-100: oklch(98% 0.012 80);
+  --color-base-200: oklch(96% 0.014 80);
+  --color-base-300: oklch(92% 0.018 80);
+  --color-base-content: oklch(22% 0.02 70);
+
+  /* Brand Orange */
   --color-primary: #e76c1f;
-  --color-primary-content: oklch(98% 0.002 247.839);
-  --color-secondary: oklch(96% 0.007 247.896);
-  --color-secondary-content: oklch(25% 0.09 281.288);
-  --color-accent: #e76c1f;
-  --color-accent-content: oklch(98% 0.002 247.839);
-  --color-neutral: oklch(37% 0.044 257.287);
-  --color-neutral-content: oklch(98% 0.002 247.839);
-  --color-info: oklch(52% 0.105 223.128);
-  --color-info-content: oklch(98% 0.002 247.839);
-  --color-success: oklch(59% 0.145 163.225);
-  --color-success-content: oklch(98% 0.031 120.757);
-  --color-warning: #e76c1f;
-  --color-warning-content: oklch(98% 0.002 247.839);
-  --color-error: oklch(52% 0.223 3.958);
-  --color-error-content: oklch(98% 0.002 247.839);
-  --radius-selector: 0.25rem;
-  --radius-field: 0.25rem;
-  --radius-box: 0.25rem;
+  --color-primary-content: oklch(98% 0.01 90);
+
+  /* Secondary: warmes “Gold/Amber” statt kühles Grau */
+  --color-secondary: oklch(78% 0.12 70);
+  --color-secondary-content: oklch(18% 0.03 70);
+
+  /* Accent: leicht rötlicher (für Highlights/Badges), nicht identisch zu primary */
+  --color-accent: oklch(72% 0.16 35);
+  --color-accent-content: oklch(98% 0.01 90);
+
+  /* Neutral: für Navbar/Footers/Chips (warm dunkel) */
+  --color-neutral: oklch(28% 0.02 70);
+  --color-neutral-content: oklch(98% 0.01 90);
+
+  /* States */
+  --color-info: oklch(62% 0.12 220);
+  --color-info-content: oklch(98% 0.01 90);
+
+  --color-success: oklch(62% 0.16 150);
+  --color-success-content: oklch(98% 0.01 90);
+
+  /* Warning darf orange sein */
+  --color-warning: oklch(78% 0.16 70);
+  --color-warning-content: oklch(18% 0.03 70);
+
+  --color-error: oklch(58% 0.22 25);
+  --color-error-content: oklch(98% 0.01 90);
+
+  /* Shape */
+  --radius-selector: 0.5rem;
+  --radius-field: 0.5rem;
+  --radius-box: 0.75rem;
+
   --size-selector: 0.25rem;
   --size-field: 0.25rem;
+
   --border: 1px;
-  --depth: 0;
+  --depth: 1;
   --noise: 0;
 }
