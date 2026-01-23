@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="sticky top-6 rounded-lg bg-neutral">
+  <div class="sticky top-6 rounded-lg bg-secondary">
     <!-- basket header -->
     <div class="flex items-center justify-between border-b border-base-300/70 p-4">
       <div class="flex items-center gap-2">
