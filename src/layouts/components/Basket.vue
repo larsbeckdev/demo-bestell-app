@@ -87,7 +87,7 @@ function onCheckout() {
   <!-- =========================
        GLOBAL TOAST 
        ========================= -->
-  <div class="toast toast-top toast-center z-[9999]">
+  <div class="toast toast-top toast-center top-26 z-[9999]">
     <Transition
       enter-active-class="transition ease-out duration-200"
       enter-from-class="opacity-0 translate-y-2 scale-95"
