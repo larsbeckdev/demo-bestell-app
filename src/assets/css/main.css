@@ -48,21 +48,21 @@ body {
   --color-neutral-content: oklch(99% 0 0);
 
   /* Status */
-  /* Info – ruhig & professionell */
-  --color-info: oklch(76% 0.06 235);
-  --color-info-content: oklch(18% 0.02 70);
+  /* Info – sachlich, ruhig (Business-Blau) */
+  --color-info: oklch(72% 0.07 240);
+  --color-info-content: oklch(98% 0.01 240);
 
-  /* Success – natürliches Grün */
-  --color-success: oklch(68% 0.12 150);
-  --color-success-content: oklch(99% 0 0);
+  /* Success – seriöses, natürliches Grün (nicht Neon) */
+  --color-success: oklch(65% 0.1 150);
+  --color-success-content: oklch(98% 0.01 150);
 
-  /* Warning – warmes Amber (klar, nicht Orange-Brand) */
-  --color-warning: oklch(80% 0.13 75);
-  --color-warning-content: oklch(20% 0.03 70);
+  /* Warning – klares Amber, deutlich ≠ Brand-Orange */
+  --color-warning: oklch(78% 0.11 90);
+  --color-warning-content: oklch(20% 0.03 80);
 
-  /* Error – seriöses Rot */
-  --color-error: oklch(60% 0.18 25);
-  --color-error-content: oklch(99% 0 0);
+  /* Error – kontrolliertes, erwachsenes Rot */
+  --color-error: oklch(58% 0.16 28);
+  --color-error-content: oklch(98% 0.01 28);
 
   /* UI shape */
   --radius-selector: 0.5rem;
