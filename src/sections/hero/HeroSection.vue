@@ -41,7 +41,7 @@ const heroUrl = new URL('@/assets/images/hero-7.webp', import.meta.url).href
           </p>
 
           <div>
-            <button class="btn">
+            <button class="btn btn-primary">
               <router-link to="/bestellen">Jetzt bestellen</router-link>
             </button>
           </div>
