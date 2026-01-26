@@ -302,12 +302,12 @@ export const dishes = [
     image: '/images/dishes/d2.webp',
     description: 'Pfirsich oder Zitrone',
   },
-  //   {
-  //     id: 55,
-  //     category: 'Drinks',
-  //     name: 'Espresso',
-  //     price: 2.5,
-  //     image: '/images/dishes/d1.webp',
-  //     description: 'Frisch gebrüht',
-  //   },
+    {
+      id: 55,
+      category: 'Drinks',
+      name: 'Espresso',
+      price: 2.5,
+      image: '/images/dishes/d1.webp',
+      description: 'Frisch gebrüht',
+    },
 ]
