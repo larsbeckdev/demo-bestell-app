@@ -40,7 +40,9 @@ const heroUrl = new URL('@/assets/images/hero-7.webp', import.meta.url).href
             {{ subtitle }}
           </p>
 
-          
+          <div>
+            Link
+          </div>
 
           <!-- Test Hint -->
           <div
