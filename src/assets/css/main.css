@@ -71,28 +71,23 @@ svg {
   stroke-width: 1.75;
 }
 
-html,
-body {
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-@supports (interpolate-size: allow-keywords) {
-  .deinSelector {
-    interpolate-size: allow-keywords;
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
   }
-}
 
-*,
-*::before,
-*::after {
-  -webkit-user-select: none;
-  user-select: none;
-}
+  *,
+  *::before,
+  *::after {
+    -webkit-user-select: none;
+    user-select: none;
+  }
 
-input,
-textarea,
-[contenteditable='true'] {
-  -webkit-user-select: text;
-  user-select: text;
+  input,
+  textarea,
+  [contenteditable='true'] {
+    -webkit-user-select: text;
+    user-select: text;
+  }
 }
