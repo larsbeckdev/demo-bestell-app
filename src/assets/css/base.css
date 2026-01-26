@@ -18,9 +18,15 @@
 @layer base {
   .btn {
     border: none;
+    box-shadow: none;
+    outline: none;
   }
-  .btn:hover {
+
+  .btn:hover,
+  .btn:focus,
+  .btn:focus-visible {
     border: none;
     box-shadow: none;
+    outline: none;
   }
 }
