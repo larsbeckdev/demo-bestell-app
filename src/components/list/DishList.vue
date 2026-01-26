@@ -17,7 +17,6 @@ import {
   Soup,
   CakeSlice,
   Utensils,
-  Soup,
 } from 'lucide-vue-next'
 
 const props = defineProps({
