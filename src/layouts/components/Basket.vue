@@ -85,9 +85,9 @@ function onCheckout() {
 
 <template>
   <!-- =========================
-       GLOBAL TOAST (Desktop + Mobile)
+       GLOBAL TOAST 
        ========================= -->
-  <div class="toast toast-top toast-end z-[9999]">
+  <div class="toast toast-bottom toast-center z-[9999]">
     <Transition
       enter-active-class="transition ease-out duration-200"
       enter-from-class="opacity-0 translate-y-2 scale-95"
@@ -117,7 +117,7 @@ function onCheckout() {
   </div>
 
   <!-- =========================
-       DESKTOP (lg+): normales Basket Card
+       DESKTOP 
        ========================= -->
   <div class="hidden lg:block">
     <div class="rounded-lg bg-base-200">
@@ -225,7 +225,7 @@ function onCheckout() {
   </div>
 
   <!-- =========================
-       MOBILE (<lg): Floating Button
+       MOBILE 
        ========================= -->
   <button
     class="lg:hidden fixed z-40 right-4 bottom-4 btn btn-primary rounded-full shadow-lg gap-2"
