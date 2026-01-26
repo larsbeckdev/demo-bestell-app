@@ -98,7 +98,7 @@ function onCheckout() {
     >
       <div
         v-if="showTestNotice"
-        class="alert alert-info shadow-lg max-w-sm border border-info bg-info text-white"
+        class="alert alert-info shadow-lg max-w-sm border border-info bg-info text-info-content"
         role="status"
       >
         <Info class="w-4 h-4" />
