@@ -228,7 +228,7 @@ function onCheckout() {
        MOBILE 
        ========================= -->
   <button
-    class="lg:hidden fixed z-40 right-4 bottom-4 btn btn-primary rounded-full shadow-lg gap-2"
+    class="lg:hidden fixed z-80 right-4 bottom-4 btn btn-primary rounded-full shadow-lg gap-2"
     @click="open"
   >
     <ShoppingCart class="w-4 h-4" />
