@@ -68,7 +68,7 @@ const groupedDishes = computed(() => {
           <component :is="resolveCategoryIcon(categoryName)" class="w-6 h-6 shrink-0" />
         </div>
 
-        <span class="font-semibold">{{ categoryName }}</span>
+        <h3 class="font-semibold">{{ categoryName }}</h3>
       </div>
 
       <DishCard
