@@ -66,7 +66,7 @@ function qtyForDish(dishId) {
           <h1 class="text-3xl font-bold"><span class="text-primary">Burger</span>House</h1>
 
           <div class="mt-2 flex items-center justify-center gap-2 text-sm text-gray-600">
-            <div class="rating">
+            <div class="rating pointer-events-none">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
