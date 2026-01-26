@@ -62,13 +62,13 @@ const groupedDishes = computed(() => {
       class="flex flex-col gap-3"
     >
       <div
-        class="flex items-center gap-3 bg-primary text-white text-2xl px-4 py-2 rounded-full mb-4"
+        class="flex items-center gap-3 bg-primary text-white text-2xl px-8 py-3 rounded-full mb-4"
       >
         <!-- <div class="bg-primary rounded-full p-2 w-16 h-10 flex items-center justify-center">
           <component :is="resolveCategoryIcon(categoryName)" class="w-8 h-8 shrink-0" />
         </div> -->
 
-        <span>{{ categoryName }}</span>
+        <span class="font-semibold">{{ categoryName }}</span>
       </div>
 
       <DishCard
