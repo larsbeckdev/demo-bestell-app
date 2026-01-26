@@ -31,7 +31,7 @@ const categoryIconMap = [
   { match: /^Pizza$/, icon: Pizza },
   { match: /^Pasta$/, icon: Soup },
   { match: /^Salat$/, icon: Salad },
-  { match: /^Desert$/, icon: IceCream },
+  { match: /^Desert$/, icon: CakeSlice },
   { match: /^Drinks$/, icon: CupSoda },
 ]
 
