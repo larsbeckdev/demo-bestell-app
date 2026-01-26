@@ -49,7 +49,7 @@ body {
 
   /* Status */
   /* Info – sachlich, ruhig (Business-Blau) */
-  --color-info: oklch(91.6% 0.105 223.128);
+  --color-info: oklch(87% 0 223.128);
   --color-info-content: oklch(8.9% 0.041 260.031);
 
   /* Success – seriöses, natürliches Grün (nicht Neon) */
