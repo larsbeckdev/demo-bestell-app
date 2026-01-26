@@ -248,7 +248,7 @@ function onCheckout() {
     leave-from-class="opacity-100"
     leave-to-class="opacity-0"
   >
-    <div v-if="isOpen" class="lg:hidden fixed inset-0 z-50" aria-modal="true" role="dialog">
+    <div v-if="isOpen" class="lg:hidden fixed inset-0 z-999" aria-modal="true" role="dialog">
       <!-- Overlay -->
       <div class="absolute inset-0 bg-black/50" @click="close"></div>
 
