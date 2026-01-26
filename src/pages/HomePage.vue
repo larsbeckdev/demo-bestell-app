@@ -1,12 +1,5 @@
-<script setup>
-import HeroSection from '@/sections/hero/HeroSection.vue'
-</script>
+<script setup></script>
 
 <template>
-  <div class="min-h-screen">
-    <HeroSection
-      title="Burger House"
-      subtitle="Handgemachte Burger · Frische Zutaten · Fairer Preis"
-    />
-  </div>
+  <div class="min-h-screen"></div>
 </template>
