@@ -1,0 +1,313 @@
+export const dishes = [
+  // =========================
+  // Burger & Sandwiches
+  // =========================
+  {
+    id: 1,
+    category: 'Burger & Sandwiches',
+    name: 'Veggie Mushroom Black Burger',
+    price: 16.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Veggie Patty, Portobello, Salat, schwarze Bun',
+  },
+  {
+    id: 2,
+    category: 'Burger & Sandwiches',
+    name: 'All Meat Burger',
+    price: 15.9,
+    image: '/images/dishes/d2.webp',
+    description: 'Rindfleisch, Cheddar, Bacon, BBQ-Sauce',
+  },
+  {
+    id: 3,
+    category: 'Burger & Sandwiches',
+    name: 'Classic Cheeseburger',
+    price: 13.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Rind, Cheddar, Gurke, Ketchup, Senf',
+  },
+  {
+    id: 4,
+    category: 'Burger & Sandwiches',
+    name: 'Chicken Crispy Burger',
+    price: 14.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Knuspriges Hähnchen, Mayo, Eisbergsalat',
+  },
+  {
+    id: 5,
+    category: 'Burger & Sandwiches',
+    name: 'Pulled Pork Sandwich',
+    price: 15.4,
+    image: '/images/dishes/d2.webp',
+    description: 'Pulled Pork, Coleslaw, BBQ-Sauce',
+  },
+  {
+    id: 6,
+    category: 'Burger & Sandwiches',
+    name: 'Avocado Veggie Sandwich',
+    price: 12.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Avocado, Grillgemüse, Hummus',
+  },
+
+  // =========================
+  // Pizza
+  // =========================
+  {
+    id: 10,
+    category: 'Pizza',
+    name: 'Pizza Margherita',
+    price: 11.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Tomate, Mozzarella, Basilikum',
+  },
+  {
+    id: 11,
+    category: 'Pizza',
+    name: 'Pizza Salami',
+    price: 12.9,
+    image: '/images/dishes/d2.webp',
+    description: 'Salami, Mozzarella, Tomatensauce',
+  },
+  {
+    id: 12,
+    category: 'Pizza',
+    name: 'Pizza Chorizo',
+    price: 13.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Chorizo, Mozzarella, Chili',
+  },
+  {
+    id: 13,
+    category: 'Pizza',
+    name: 'Pizza Funghi',
+    price: 12.4,
+    image: '/images/dishes/d1.webp',
+    description: 'Champignons, Mozzarella',
+  },
+  {
+    id: 14,
+    category: 'Pizza',
+    name: 'Pizza Prosciutto',
+    price: 13.4,
+    image: '/images/dishes/d2.webp',
+    description: 'Schinken, Mozzarella',
+  },
+  {
+    id: 15,
+    category: 'Pizza',
+    name: 'Pizza Veggie',
+    price: 13.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Gemüse-Mix, Mozzarella',
+  },
+
+  // =========================
+  // Pasta
+  // =========================
+  {
+    id: 20,
+    category: 'Pasta',
+    name: 'Spaghetti Bolognese',
+    price: 13.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Rinderhack, Tomatensauce',
+  },
+  {
+    id: 21,
+    category: 'Pasta',
+    name: 'Pasta Carbonara',
+    price: 14.4,
+    image: '/images/dishes/d2.webp',
+    description: 'Speck, Ei, Parmesan',
+  },
+  {
+    id: 22,
+    category: 'Pasta',
+    name: 'Pasta Arrabbiata',
+    price: 12.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Scharfe Tomatensauce',
+  },
+  {
+    id: 23,
+    category: 'Pasta',
+    name: 'Pasta Pesto',
+    price: 12.4,
+    image: '/images/dishes/d1.webp',
+    description: 'Basilikumpesto, Parmesan',
+  },
+  {
+    id: 24,
+    category: 'Pasta',
+    name: 'Pasta Alfredo',
+    price: 13.9,
+    image: '/images/dishes/d2.webp',
+    description: 'Sahnesauce, Parmesan',
+  },
+  {
+    id: 25,
+    category: 'Pasta',
+    name: 'Pasta Veggie',
+    price: 13.4,
+    image: '/images/dishes/d1.webp',
+    description: 'Gemüse, Tomatensauce',
+  },
+
+  // =========================
+  // Salat
+  // =========================
+  {
+    id: 30,
+    category: 'Salat',
+    name: 'Green Garden Salad',
+    price: 7.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Blattsalat, Gurke, Dressing',
+  },
+  {
+    id: 31,
+    category: 'Salat',
+    name: 'Caesar Salad',
+    price: 10.9,
+    image: '/images/dishes/d2.webp',
+    description: 'Römersalat, Parmesan, Croutons',
+  },
+  {
+    id: 32,
+    category: 'Salat',
+    name: 'Chicken Caesar Salad',
+    price: 12.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Caesar Salad mit Hähnchen',
+  },
+  {
+    id: 33,
+    category: 'Salat',
+    name: 'Greek Salad',
+    price: 9.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Feta, Oliven, Tomaten',
+  },
+  {
+    id: 34,
+    category: 'Salat',
+    name: 'Avocado Quinoa Salad',
+    price: 11.4,
+    image: '/images/dishes/d2.webp',
+    description: 'Quinoa, Avocado, Limette',
+  },
+  {
+    id: 35,
+    category: 'Salat',
+    name: 'Tuna Salad',
+    price: 11.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Thunfisch, Ei, Bohnen',
+  },
+
+  // =========================
+  // Dessert
+  // =========================
+  {
+    id: 40,
+    category: 'Desert',
+    name: 'Chocolate Brownie',
+    price: 5.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Saftiger Schokobrownie',
+  },
+  {
+    id: 41,
+    category: 'Desert',
+    name: 'Cheesecake',
+    price: 6.4,
+    image: '/images/dishes/d2.webp',
+    description: 'Klassischer Käsekuchen',
+  },
+  {
+    id: 42,
+    category: 'Desert',
+    name: 'Tiramisu',
+    price: 6.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Italienischer Klassiker',
+  },
+  {
+    id: 43,
+    category: 'Desert',
+    name: 'Apple Pie',
+    price: 5.4,
+    image: '/images/dishes/d1.webp',
+    description: 'Apfelkuchen mit Zimt',
+  },
+  {
+    id: 44,
+    category: 'Desert',
+    name: 'Ice Cream Mix',
+    price: 4.9,
+    image: '/images/dishes/d2.webp',
+    description: 'Vanille & Schokolade',
+  },
+  {
+    id: 45,
+    category: 'Desert',
+    name: 'Panna Cotta',
+    price: 6.2,
+    image: '/images/dishes/d1.webp',
+    description: 'Mit Beerensauce',
+  },
+
+  // =========================
+  // Drinks
+  // =========================
+  {
+    id: 50,
+    category: 'Drinks',
+    name: 'Cola',
+    price: 3.5,
+    image: '/images/dishes/d1.webp',
+    description: '0,33l',
+  },
+  {
+    id: 51,
+    category: 'Drinks',
+    name: 'Cola Zero',
+    price: 3.5,
+    image: '/images/dishes/d2.webp',
+    description: '0,33l',
+  },
+  {
+    id: 52,
+    category: 'Drinks',
+    name: 'Mineral Water',
+    price: 2.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Still oder Sprudel',
+  },
+  {
+    id: 53,
+    category: 'Drinks',
+    name: 'Lemonade',
+    price: 3.9,
+    image: '/images/dishes/d1.webp',
+    description: 'Hausgemacht',
+  },
+  {
+    id: 54,
+    category: 'Drinks',
+    name: 'Iced Tea',
+    price: 3.9,
+    image: '/images/dishes/d2.webp',
+    description: 'Pfirsich oder Zitrone',
+  },
+  {
+    id: 55,
+    category: 'Drinks',
+    name: 'Espresso',
+    price: 2.5,
+    image: '/images/dishes/d1.webp',
+    description: 'Frisch gebrüht',
+  },
+]

@@ -7,9 +7,6 @@ import Footer from '@/layouts/components/Footer.vue'
 <template>
   <Header />
   <Main />
-
-  <!-- <main class="w-full"></main> -->
-
   <Footer />
 </template>
 
