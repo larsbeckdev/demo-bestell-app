@@ -33,7 +33,7 @@ const emit = defineEmits(['add', 'remove'])
       <div class="font-semibold whitespace-nowrap">{{ Number(dish.price).toFixed(2) }}€</div>
 
       <div class="flex items-center gap-2">
-        <span v-if="dish.quantity > 0" class="badge rounded-full px-3 py-2 bg-base-300">
+        <span v-if="dish.quantity > 0" class="badge rounded-full px-3 py-4 bg-base-300">
           {{ dish.quantity }}
         </span>
 
