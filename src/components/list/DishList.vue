@@ -27,17 +27,12 @@ const emit = defineEmits(['add', 'remove'])
 
 // Kategorie Icons zuordnen
 const categoryIconMap = [
-  { match: /burger|beef|rind/i, icon: Beef },
-  { match: /pizza/i, icon: Pizza },
-  { match: /pasta|nudel|sandwich|wrap|baguette/i, icon: Sandwich },
-  { match: /salat|vegan|vegetar/i, icon: Salad },
-  { match: /fisch|fish|lachs|thun/i, icon: Fish },
-  { match: /suppe|soup|ramen/i, icon: Soup },
-  { match: /dessert|sweet|eis|ice/i, icon: IceCream },
-  { match: /kaffee|coffee/i, icon: Coffee },
-  { match: /bier|beer|alkohol/i, icon: Beer },
-  { match: /getränk|drink|soft|cola|wasser|saft/i, icon: CupSoda },
-  { match: /special|hot|spicy|scharf/i, icon: Flame },
+  { match: /^Burger & Sandwiches$/, icon: Beef },
+  { match: /^Pizza$/, icon: Pizza },
+  { match: /^Pasta$/, icon: Sandwich },
+  { match: /^Salat$/, icon: Salad },
+  { match: /^Desert$/, icon: IceCream },
+  { match: /^Drinks$/, icon: CupSoda },
 ]
 
 function resolveCategoryIcon(categoryName = '') {
@@ -70,7 +65,7 @@ const groupedDishes = computed(() => {
         class="flex items-center gap-3 bg-primary text-white text-2xl px-4 py-2 rounded-full mb-4"
       >
         <div
-          class="bg-primary rounded-full p-2 w-16 h-16 mx-2 -my-6 flex items-center justify-center "
+          class="bg-primary rounded-full p-2 w-16 h-16 mx-2 -my-6 flex items-center justify-center"
         >
           <component :is="resolveCategoryIcon(categoryName)" class="w-8 h-8 shrink-0" />
         </div>
