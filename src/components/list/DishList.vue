@@ -72,7 +72,7 @@ const groupedDishes = computed(() => {
         <div
           class="bg-primary rounded-full p-2 w-16 h-16 mx-2 -my-6 flex items-center justify-center "
         >
-          <component :is="resolveCategoryIcon(categoryName)" class="w-8 h-8 shrink-0" />
+          <component :is="resolveCategoryIcon(categoryName)" class="w-8 h-8 shrink-0 text-primary" />
         </div>
 
         <span>{{ categoryName }}</span>
