@@ -73,10 +73,7 @@ body {
   --noise: 0;
 }
 
-/* button:hover {
-  outline: 2px solid var(--color-primary);
-  outline-offset: 2px;
-} */
+
 
 svg {
   stroke-width: 1.75;
