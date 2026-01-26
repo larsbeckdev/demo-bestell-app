@@ -48,16 +48,20 @@ body {
   --color-neutral-content: oklch(99% 0 0);
 
   /* Status */
-  --color-info: oklch(78% 0.05 230);
-  --color-info-content: oklch(22% 0.02 70);
+  /* Info – ruhig & professionell */
+  --color-info: oklch(76% 0.06 235);
+  --color-info-content: oklch(18% 0.02 70);
 
-  --color-success: oklch(70% 0.14 150);
+  /* Success – natürliches Grün */
+  --color-success: oklch(68% 0.12 150);
   --color-success-content: oklch(99% 0 0);
 
-  --color-warning: oklch(82% 0.14 85);
-  --color-warning-content: oklch(22% 0.02 70);
+  /* Warning – warmes Amber (klar, nicht Orange-Brand) */
+  --color-warning: oklch(80% 0.13 75);
+  --color-warning-content: oklch(20% 0.03 70);
 
-  --color-error: oklch(62% 0.2 25);
+  /* Error – seriöses Rot */
+  --color-error: oklch(60% 0.18 25);
   --color-error-content: oklch(99% 0 0);
 
   /* UI shape */
@@ -72,8 +76,6 @@ body {
   --depth: 0;
   --noise: 0;
 }
-
-
 
 svg {
   stroke-width: 1.75;
