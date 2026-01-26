@@ -71,38 +71,3 @@ svg {
   stroke-width: 1.75;
 }
 
-@layer base {
-  html {
-    -webkit-text-size-adjust: 100%;
-    text-size-adjust: 100%;
-  }
-
-  *,
-  *::before,
-  *::after {
-    -webkit-user-select: none;
-    user-select: none;
-  }
-
-  input,
-  textarea,
-  [contenteditable='true'] {
-    -webkit-user-select: text;
-    user-select: text;
-  }
-}
-
-@layer utilities {
-  .select-text {
-    -webkit-user-select: text;
-    user-select: text;
-  }
-}
-
-@layer base {
-  @supports (interpolate-size: allow-keywords) {
-    * {
-      interpolate-size: allow-keywords;
-    }
-  }
-}
