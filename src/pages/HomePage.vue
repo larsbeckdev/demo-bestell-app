@@ -6,7 +6,7 @@
       Startseite
     </h1>
     <p class="mt-4">Willkommen auf der Startseite!</p>
-    <router-link to="/bestellen" class="btn btn-primary text-blue-500 hover:underline">Erfahre mehr über uns</router-link>
+    <router-link to="/bestellen" class="btn btn-primary"></router-link>
   </div>
 </template>
 
