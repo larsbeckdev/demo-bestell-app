@@ -17,6 +17,7 @@ import {
   Soup,
   CakeSlice,
   Utensils,
+  Soup,
 } from 'lucide-vue-next'
 
 const props = defineProps({
@@ -29,7 +30,7 @@ const emit = defineEmits(['add', 'remove'])
 const categoryIconMap = [
   { match: /^Burger & Sandwiches$/, icon: Beef },
   { match: /^Pizza$/, icon: Pizza },
-  { match: /^Pasta$/, icon: Sandwich },
+  { match: /^Pasta$/, icon: Soup },
   { match: /^Salat$/, icon: Salad },
   { match: /^Desert$/, icon: IceCream },
   { match: /^Drinks$/, icon: CupSoda },
