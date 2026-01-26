@@ -26,7 +26,7 @@ const emit = defineEmits(['add', 'remove'])
 
         <button
           v-if="dish.quantity > 0"
-          class="btn btn-circle btn-sm btn-primary bg-base-300"
+          class="btn btn-circle btn-sm btn-base bg-base-300"
           type="button"
           aria-label="Remove from basket"
           @click="emit('remove', dish)"
