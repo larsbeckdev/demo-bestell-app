@@ -91,3 +91,18 @@ svg {
     user-select: text;
   }
 }
+
+@layer utilities {
+  .select-text {
+    -webkit-user-select: text;
+    user-select: text;
+  }
+}
+
+@layer base {
+  @supports (interpolate-size: allow-keywords) {
+    * {
+      interpolate-size: allow-keywords;
+    }
+  }
+}
