@@ -75,3 +75,9 @@ html {
   text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
+@supports (interpolate-size: allow-keywords) {
+  .deinSelector {
+    interpolate-size: allow-keywords;
+  }
+}
