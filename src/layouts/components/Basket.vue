@@ -37,9 +37,9 @@ const itemCount = computed(() =>
 
 function open() {
   isOpen.value = true
-  // Scroll lock
   document.documentElement.classList.add('overflow-hidden')
 }
+
 function close() {
   isOpen.value = false
   document.documentElement.classList.remove('overflow-hidden')
@@ -56,15 +56,24 @@ onBeforeUnmount(() => {
 })
 
 /* =========================
-   Test-Store Hinweis
+   Test-Store Toast
    ========================= */
 const showTestNotice = ref(false)
 let noticeTimer = null
 
-function onCheckout() {
+function showToast(ms = 4500) {
   showTestNotice.value = true
   if (noticeTimer) clearTimeout(noticeTimer)
-  noticeTimer = setTimeout(() => (showTestNotice.value = false), 4000)
+  noticeTimer = setTimeout(() => (showTestNotice.value = false), ms)
+}
+
+onBeforeUnmount(() => {
+  if (noticeTimer) clearTimeout(noticeTimer)
+})
+
+function onCheckout() {
+  // Toast anzeigen (global)
+  showToast(4500)
 
   emit('clear')
   emit('checkout')
@@ -75,6 +84,38 @@ function onCheckout() {
 </script>
 
 <template>
+  <!-- =========================
+       GLOBAL TOAST (Desktop + Mobile)
+       ========================= -->
+  <div class="toast toast-top toast-end z-[9999]">
+    <Transition
+      enter-active-class="transition ease-out duration-200"
+      enter-from-class="opacity-0 translate-y-2 scale-95"
+      enter-to-class="opacity-100 translate-y-0 scale-100"
+      leave-active-class="transition ease-in duration-150"
+      leave-from-class="opacity-100 translate-y-0 scale-100"
+      leave-to-class="opacity-0 translate-y-2 scale-95"
+    >
+      <div
+        v-if="showTestNotice"
+        class="alert alert-info shadow-lg border border-info/30 bg-base-100"
+        role="status"
+      >
+        <Info class="w-4 h-4" />
+        <div class="flex flex-col">
+          <span class="font-semibold">Test-Store</span>
+          <span class="text-sm opacity-80">
+            Bestellungen dienen nur zur Demo und werden nicht ausgeführt.
+          </span>
+        </div>
+
+        <button class="btn btn-ghost btn-sm" aria-label="Schließen" @click="showTestNotice = false">
+          <X class="w-4 h-4" />
+        </button>
+      </div>
+    </Transition>
+  </div>
+
   <!-- =========================
        DESKTOP (lg+): normales Basket Card
        ========================= -->
@@ -177,23 +218,6 @@ function onCheckout() {
           <CreditCard class="w-4 h-4" />
           Zur Kasse
         </button>
-
-        <Transition
-          enter-active-class="transition ease-out duration-200"
-          enter-from-class="opacity-0 translate-y-1"
-          enter-to-class="opacity-100 translate-y-0"
-          leave-active-class="transition ease-in duration-150"
-          leave-from-class="opacity-100 translate-y-0"
-          leave-to-class="opacity-0 translate-y-1"
-        >
-          <div v-if="showTestNotice" class="alert mt-3 bg-info/30 border-info text-info">
-            <Info class="w-4 h-4" />
-            <span class="text-sm">
-              Hinweis: Dies ist ein <b>Test-Store</b>. Bestellungen dienen nur zur Demo und werden
-              nicht ausgeführt.
-            </span>
-          </div>
-        </Transition>
 
         <p class="mt-2 text-xs opacity-60">Weitere Informationen findest du in unseren AGB.</p>
       </div>
@@ -355,23 +379,6 @@ function onCheckout() {
                   Zur Kasse
                 </button>
               </div>
-
-              <Transition
-                enter-active-class="transition ease-out duration-200"
-                enter-from-class="opacity-0 translate-y-1"
-                enter-to-class="opacity-100 translate-y-0"
-                leave-active-class="transition ease-in duration-150"
-                leave-from-class="opacity-100 translate-y-0"
-                leave-to-class="opacity-0 translate-y-1"
-              >
-                <div v-if="showTestNotice" class="alert mt-3 bg-info/30 border-info text-info">
-                  <Info class="w-4 h-4" />
-                  <span class="text-sm">
-                    Hinweis: Dies ist ein <b>Test-Store</b>. Bestellungen dienen nur zur Demo und
-                    werden nicht ausgeführt.
-                  </span>
-                </div>
-              </Transition>
 
               <p class="mt-2 text-xs opacity-60">
                 Weitere Informationen findest du in unseren AGB.
