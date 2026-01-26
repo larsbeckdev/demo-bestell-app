@@ -70,3 +70,8 @@ body {
 svg {
   stroke-width: 1.75;
 }
+
+html {
+  text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
