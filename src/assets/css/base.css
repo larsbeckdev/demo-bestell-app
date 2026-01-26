@@ -19,4 +19,8 @@
   .btn {
     border: none;
   }
+  .btn:hover {
+    border: none;
+    box-shadow: none;
+  }
 }
