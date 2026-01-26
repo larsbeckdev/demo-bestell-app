@@ -49,8 +49,8 @@ body {
 
   /* Status */
   /* Info – sachlich, ruhig (Business-Blau) */
-  --color-info: oklch(72% 0.07 240);
-  --color-info-content: oklch(98% 0.01 240);
+  --color-info: oklch(70% 0.09 250);
+  --color-info-content: oklch(98% 0.01 250);
 
   /* Success – seriöses, natürliches Grün (nicht Neon) */
   --color-success: oklch(65% 0.1 150);
