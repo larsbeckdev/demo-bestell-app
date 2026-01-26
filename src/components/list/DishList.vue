@@ -61,7 +61,7 @@ const groupedDishes = computed(() => {
       :key="categoryName"
       class="flex flex-col gap-3"
     >
-      <div
+      <!-- <div
         class="flex items-center gap-3 bg-primary text-white text-2xl px-4 py-2 rounded-full mb-4"
       >
         <div
@@ -71,7 +71,7 @@ const groupedDishes = computed(() => {
         </div>
 
         <span>{{ categoryName }}</span>
-      </div>
+      </div> -->
 
       <DishCard
         v-for="dish in categoryDishes"
