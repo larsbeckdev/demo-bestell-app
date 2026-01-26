@@ -14,3 +14,9 @@
   margin-inline: auto;
   padding-inline: var(--container-padding);
 }
+
+@layer base {
+  .btn {
+    border: none;
+  }
+}
