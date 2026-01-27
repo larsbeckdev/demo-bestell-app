@@ -47,7 +47,7 @@ export const dishes = [
     category: 'Burger & Sandwiches',
     name: 'Avocado Veggie Sandwich',
     price: 12.9,
-    image: '/images/dishes/d1.webp',
+    image: './images/dishes/d6.png',
     description: 'Avocado, Grillgemüse, Hummus',
   },
 
