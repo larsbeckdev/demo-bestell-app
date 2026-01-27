@@ -23,8 +23,7 @@ onMounted(() => {
 
 <template>
   <div class="dropdown dropdown-end">
-    <button type="button" tabindex="0" class="btn btn-sm btn-primary gap-2  border-primary text-primary-content" aria-label="Theme auswählen">
-      <!-- Palette Icon -->
+    <button type="button" tabindex="0" class="btn btn-sm btn-soft gap-2 border-primary " aria-label="Theme auswählen">      <!-- Palette Icon -->
       <PaintBucket class="h-4 w-4 opacity-80" />
 
       <!-- <span class="font-medium">Theme</span> -->
