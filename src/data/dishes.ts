@@ -15,7 +15,7 @@ export const dishes = [
     category: 'Burger & Sandwiches',
     name: 'All Meat Burger',
     price: 15.9,
-    image: '/images/dishes/d2.webp',
+    image: './images/dishes/d2.png',
     description: 'Rindfleisch, Cheddar, Bacon, BBQ-Sauce',
   },
   {
