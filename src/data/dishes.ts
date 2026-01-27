@@ -23,7 +23,7 @@ export const dishes = [
     category: 'Burger & Sandwiches',
     name: 'Classic Cheeseburger',
     price: 13.9,
-    image: '/images/dishes/d1.webp',
+    image: './images/dishes/d3.png',
     description: 'Rind, Cheddar, Gurke, Ketchup, Senf',
   },
   {
@@ -31,7 +31,7 @@ export const dishes = [
     category: 'Burger & Sandwiches',
     name: 'Chicken Crispy Burger',
     price: 14.9,
-    image: '/images/dishes/d1.webp',
+    image: './images/dishes/d4.png',
     description: 'Knuspriges Hähnchen, Mayo, Eisbergsalat',
   },
   {
@@ -39,7 +39,7 @@ export const dishes = [
     category: 'Burger & Sandwiches',
     name: 'Pulled Pork Sandwich',
     price: 15.4,
-    image: '/images/dishes/d2.webp',
+    image: './images/dishes/d5.png',
     description: 'Pulled Pork, Coleslaw, BBQ-Sauce',
   },
   {
