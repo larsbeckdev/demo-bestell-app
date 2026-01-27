@@ -32,7 +32,7 @@ onMounted(() => {
       <!-- Palette Icon -->
       <PaintBucket class="h-4 w-4 opacity-80" />
 
-      <span class="font-medium">Theme wechseln</span>
+      <span class="font-medium nowrap">Theme wechseln</span>
     </button>
 
     <div
