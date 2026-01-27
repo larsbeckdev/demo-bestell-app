@@ -111,7 +111,7 @@ export const dishes = [
     category: 'Pasta',
     name: 'Spaghetti Bolognese',
     price: 13.9,
-    image: './images/dishes/sp1.webp',
+    image: './images/dishes/n1.webp',
     description: 'Rinderhack, Tomatensauce',
   },
   {
@@ -119,7 +119,7 @@ export const dishes = [
     category: 'Pasta',
     name: 'Pasta Carbonara',
     price: 14.4,
-    image: './images/dishes/sp2.webp',
+    image: './images/dishes/n2.webp',
     description: 'Speck, Ei, Parmesan',
   },
   {
@@ -127,7 +127,7 @@ export const dishes = [
     category: 'Pasta',
     name: 'Pasta Arrabbiata',
     price: 12.9,
-    image: './images/dishes/sp3.webp',
+    image: './images/dishes/n3.webp',
     description: 'Scharfe Tomatensauce',
   },
   {
@@ -135,7 +135,7 @@ export const dishes = [
     category: 'Pasta',
     name: 'Pasta Pesto',
     price: 12.4,
-    image: './images/dishes/sp4.webp',
+    image: './images/dishes/n4.webp',
     description: 'Basilikumpesto, Parmesan',
   },
   {
@@ -143,7 +143,7 @@ export const dishes = [
     category: 'Pasta',
     name: 'Pasta Alfredo',
     price: 13.9,
-    image: './images/dishes/sp5.webp',
+    image: './images/dishes/n5.webp',
     description: 'Sahnesauce, Parmesan',
   },
   {
@@ -151,7 +151,7 @@ export const dishes = [
     category: 'Pasta',
     name: 'Pasta Veggie',
     price: 13.4,
-    image: './images/dishes/sp6.webp',
+    image: './images/dishes/n6.webp',
     description: 'Gemüse, Tomatensauce',
   },
 
