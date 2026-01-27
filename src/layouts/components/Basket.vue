@@ -181,11 +181,11 @@ function onCheckout() {
             </div>
 
             <div class="flex items-center gap-2">
-              <button class="btn btn-sm" @click="emit('remove', item)">
+              <button class="btn btn-xs btn-round" @click="emit('remove', item)">
                 <Minus class="w-4 h-4" />
               </button>
 
-              <button class="btn btn-sm btn-primary" @click="emit('add', item)">
+              <button class="btn btn-xs btn-primary" @click="emit('add', item)">
                 <Plus class="w-4 h-4" />
               </button>
             </div>
