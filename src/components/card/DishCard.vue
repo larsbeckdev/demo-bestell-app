@@ -35,7 +35,7 @@ const emit = defineEmits(['add', 'remove'])
       <div class="flex items-center gap-2">
         <span
           v-if="dish.quantity > 0"
-          class="rounded-full px-3 text-sm px-8 py-2 border-none bg-primary text-white"
+          class="rounded-full px-3 text-sm px-8 py-2 border-none bg-primary text-primary-content font-medium"
         >
           {{ dish.quantity }}
         </span>
