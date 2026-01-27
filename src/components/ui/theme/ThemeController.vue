@@ -25,7 +25,7 @@ onMounted(() => {
   <div class="dropdown dropdown-end">
     <button type="button" tabindex="0" class="btn btn-sm btn-warning gap-2" aria-label="Theme auswählen">      <!-- Palette Icon -->
       <PaintBucket class="h-4 w-4 opacity-80" />
-
+      Theme wechseln
       <!-- <span class="font-medium">Theme</span> -->
     </button>
 
