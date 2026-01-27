@@ -33,13 +33,13 @@ const emit = defineEmits(['add', 'remove'])
       <div class="font-semibold whitespace-nowrap">{{ Number(dish.price).toFixed(2) }}€</div>
 
       <div class="flex items-center gap-2">
-        <span v-if="dish.quantity > 0" class="badge badge-lg rounded-full bg-base-300 px-3 text-sm">
+        <span v-if="dish.quantity > 0" class="rounded-full btn px-3 text-sm btn-soft btn-xs ">
           {{ dish.quantity }}
         </span>
 
         <button
           v-if="dish.quantity > 0"
-          class="btn btn-circle btn-sm"
+          class="btn btn-circle btn-sm btn-soft"
           type="button"
           aria-label="Remove from basket"
           @click="emit('remove', dish)"
