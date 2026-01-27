@@ -210,22 +210,22 @@ export const dishes = [
   // =========================
   // Dessert
   // =========================
-  {
-    id: 40,
-    category: 'Desert',
-    name: 'Chocolate Brownie',
-    price: 5.9,
-    image: '/images/dishes/d1.webp',
-    description: 'Saftiger Schokobrownie',
-  },
-  {
-    id: 41,
-    category: 'Desert',
-    name: 'Cheesecake',
-    price: 6.4,
-    image: '/images/dishes/d2.webp',
-    description: 'Klassischer Käsekuchen',
-  },
+//   {
+//     id: 40,
+//     category: 'Desert',
+//     name: 'Chocolate Brownie',
+//     price: 5.9,
+//     image: '/images/dishes/d1.webp',
+//     description: 'Saftiger Schokobrownie',
+//   },
+//   {
+//     id: 41,
+//     category: 'Desert',
+//     name: 'Cheesecake',
+//     price: 6.4,
+//     image: '/images/dishes/d2.webp',
+//     description: 'Klassischer Käsekuchen',
+//   },
   //   {
   //     id: 42,
   //     category: 'Desert',
@@ -262,38 +262,38 @@ export const dishes = [
   // =========================
   // Drinks
   // =========================
-  {
-    id: 50,
-    category: 'Drinks',
-    name: 'Cola',
-    price: 3.5,
-    image: '/images/dishes/d1.webp',
-    description: '0,33l',
-  },
-  {
-    id: 51,
-    category: 'Drinks',
-    name: 'Cola Zero',
-    price: 3.5,
-    image: '/images/dishes/d2.webp',
-    description: '0,33l',
-  },
-  {
-    id: 52,
-    category: 'Drinks',
-    name: 'Mineral Water',
-    price: 2.9,
-    image: '/images/dishes/d1.webp',
-    description: 'Still oder Sprudel',
-  },
-  {
-    id: 53,
-    category: 'Drinks',
-    name: 'Lemonade',
-    price: 3.9,
-    image: '/images/dishes/d1.webp',
-    description: 'Hausgemacht',
-  },
+//   {
+//     id: 50,
+//     category: 'Drinks',
+//     name: 'Cola',
+//     price: 3.5,
+//     image: '/images/dishes/d1.webp',
+//     description: '0,33l',
+//   },
+//   {
+//     id: 51,
+//     category: 'Drinks',
+//     name: 'Cola Zero',
+//     price: 3.5,
+//     image: '/images/dishes/d2.webp',
+//     description: '0,33l',
+//   },
+//   {
+//     id: 52,
+//     category: 'Drinks',
+//     name: 'Mineral Water',
+//     price: 2.9,
+//     image: '/images/dishes/d1.webp',
+//     description: 'Still oder Sprudel',
+//   },
+//   {
+//     id: 53,
+//     category: 'Drinks',
+//     name: 'Lemonade',
+//     price: 3.9,
+//     image: '/images/dishes/d1.webp',
+//     description: 'Hausgemacht',
+//   },
   //   {
   //     id: 54,
   //     category: 'Drinks',
