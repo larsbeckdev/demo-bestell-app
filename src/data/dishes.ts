@@ -59,7 +59,7 @@ export const dishes = [
     category: 'Pizza',
     name: 'Pizza Margherita',
     price: 11.9,
-    image: '/images/dishes/d1.webp',
+    image: './images/dishes/p1.png',
     description: 'Tomate, Mozzarella, Basilikum',
   },
   {
@@ -67,7 +67,7 @@ export const dishes = [
     category: 'Pizza',
     name: 'Pizza Salami',
     price: 12.9,
-    image: '/images/dishes/d2.webp',
+    image: './images/dishes/p2.png',
     description: 'Salami, Mozzarella, Tomatensauce',
   },
   {
@@ -75,7 +75,7 @@ export const dishes = [
     category: 'Pizza',
     name: 'Pizza Chorizo',
     price: 13.9,
-    image: '/images/dishes/d1.webp',
+    image: './images/dishes/p3.png',
     description: 'Chorizo, Mozzarella, Chili',
   },
   {
@@ -83,7 +83,7 @@ export const dishes = [
     category: 'Pizza',
     name: 'Pizza Funghi',
     price: 12.4,
-    image: '/images/dishes/d1.webp',
+    image: './images/dishes/p4.png',
     description: 'Champignons, Mozzarella',
   },
   {
@@ -91,7 +91,7 @@ export const dishes = [
     category: 'Pizza',
     name: 'Pizza Prosciutto',
     price: 13.4,
-    image: '/images/dishes/d2.webp',
+    image: './images/dishes/p5.png',
     description: 'Schinken, Mozzarella',
   },
   {
@@ -99,7 +99,7 @@ export const dishes = [
     category: 'Pizza',
     name: 'Pizza Veggie',
     price: 13.9,
-    image: '/images/dishes/d1.webp',
+    image: './images/dishes/p6.webp',
     description: 'Gemüse-Mix, Mozzarella',
   },
 
